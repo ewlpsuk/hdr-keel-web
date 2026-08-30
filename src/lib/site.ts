@@ -8,11 +8,9 @@ export const site = {
 /**
  * Calendar booking link for "Book a call" CTAs. Google Calendar appointment
  * schedule; auto-attaches a Google Meet link. Override via NEXT_PUBLIC_BOOKING_URL.
- * NOTE: the default currently points at Shaine's shared booking slot; swap to a
- * dedicated HDR Keel slot once one is created.
  */
 export const BOOKING_URL =
-  process.env.NEXT_PUBLIC_BOOKING_URL || "https://calendar.app.google/Z7C6iRfHa6n6d5aK7";
+  process.env.NEXT_PUBLIC_BOOKING_URL || "https://calendar.app.google/35S3MsowmvkoSJ9d8";
 
 export const navItems = [
   { href: "/", label: "Home" },
