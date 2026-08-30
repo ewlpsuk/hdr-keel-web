@@ -31,20 +31,22 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-5xl px-6 pb-16">
         <div className="rounded-xl border border-white/10 bg-surface p-8">
           <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            Service A
+            Case support
           </p>
           <h2 className="mt-3 font-display text-3xl font-bold text-text">
             Outsourced case support
           </h2>
           <p className="mt-4 text-muted leading-relaxed">
             Shaine steps in when a firm is short-staffed, on annual leave, or
-            simply overloaded. He does intake triage, disclosure
-            reconciliation, chronology, quantum, report drafting and offers
-            strategy on housing disrepair cases. The firm retains conduct.
-            Shaine is the outsourced fee earner. Capped at about 10 hours per
-            week per client so he never over-commits.
+            simply overloaded. He is a housing disrepair fee earner who has
+            personally handled housing disrepair claim work since 2013. He does
+            intake triage, disclosure reconciliation, chronology, quantum,
+            report drafting and offers strategy on housing disrepair cases. The
+            firm retains conduct. Shaine is the outsourced fee earner. Capped
+            at no more than 10 hours per week per client so he never
+            over-commits.
           </p>
-          <p className="mt-6 text-sm leading-relaxed text-muted">{CONDUCT}</p>
+          <p className="mt-6 leading-relaxed text-muted">{CONDUCT}</p>
           <div className="mt-8">
             <Button href="/pricing" variant="primary">
               See pricing
@@ -56,7 +58,7 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-5xl px-6 pb-16">
         <div className="rounded-xl border border-white/10 bg-surface p-8">
           <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            Service B
+            Training
           </p>
           <h2 className="mt-3 font-display text-3xl font-bold text-text">
             Training
@@ -78,7 +80,7 @@ export default function ServicesPage() {
       <section className="mx-auto max-w-5xl px-6 pb-16">
         <div className="rounded-xl border border-white/10 bg-surface p-8">
           <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            Service C
+            AI implementation
           </p>
           <h2 className="mt-3 font-display text-3xl font-bold text-text">
             AI implementation and efficiency consulting
@@ -90,7 +92,7 @@ export default function ServicesPage() {
           </p>
           <div className="mt-8">
             <Button href={BOOKING_URL} variant="primary">
-              Talk to Shaine
+              Book a call
             </Button>
           </div>
         </div>

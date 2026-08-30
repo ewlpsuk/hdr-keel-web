@@ -55,7 +55,10 @@ export default function PricingPage() {
 
       <section className="mx-auto max-w-6xl px-6 pb-12">
         <SectionHeading kicker="Retainer" title="Case support retainer">
-          <p>Prices fall per hour as you commit to more hours each month.</p>
+          <p>
+            The monthly price steps down as you commit to more hours each
+            month.
+          </p>
         </SectionHeading>
         <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
           {tiers.map((tier) => (
@@ -83,10 +86,11 @@ export default function PricingPage() {
             Contact HDR Keel
           </a>
         </p>
-        <p className="mt-4 text-sm text-muted">
+        <p className="mt-4 text-muted">
           Each retainer is for a set number of hours per month, delivered at no
           more than 10 hours per week per client. Unused hours roll over into
-          the next month within the same quarter.
+          the next month within the same quarter, subject to the retainer
+          agreement.
         </p>
       </section>
 

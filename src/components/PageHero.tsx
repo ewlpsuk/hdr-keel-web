@@ -20,15 +20,7 @@ export default function PageHero({
   secondaryLabel,
 }: PageHeroProps) {
   return (
-    <section className="relative overflow-hidden px-6 py-20">
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute inset-0"
-        style={{
-          background:
-            "radial-gradient(ellipse at 20% 0%, rgba(255,140,0,0.16), transparent 50%), radial-gradient(ellipse at 80% 20%, rgba(0,242,255,0.1), transparent 45%)",
-        }}
-      />
+    <section className="relative px-6 pb-20 pt-20">
       <div className="relative mx-auto max-w-5xl">
         <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
           {kicker}
@@ -54,6 +46,10 @@ export default function PageHero({
           </div>
         )}
       </div>
+      <div
+        aria-hidden="true"
+        className="absolute inset-x-0 bottom-0 h-px bg-accent"
+      />
     </section>
   );
 }

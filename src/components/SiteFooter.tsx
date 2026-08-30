@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
-import { navItems } from "@/lib/site";
+import { navItems, PRODUCT_URL } from "@/lib/site";
 
 export default function SiteFooter() {
   return (
@@ -25,12 +25,16 @@ export default function SiteFooter() {
         </nav>
         <div className="text-sm text-muted">
           <a
-            href="https://hdrcompass.co.uk"
+            href={PRODUCT_URL}
             className="text-accent-2 hover:text-accent"
           >
             HDR Compass product site
           </a>
           <p className="mt-4">HDR Keel is operated by Shaine Stead</p>
+          <p className="mt-2">
+            HDR Keel is not a claims management company, not an SRA-regulated
+            law firm and not a provider of legal advice to consumers.
+          </p>
           <p className="mt-2">© 2026 HDR Keel</p>
         </div>
       </div>

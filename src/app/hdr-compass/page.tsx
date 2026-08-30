@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { pageMetadata } from "@/lib/site";
+import { pageMetadata, PRODUCT_URL } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "HDR Compass",
@@ -21,7 +21,7 @@ const softwareJsonLd = {
   name: "HDR Compass",
   applicationCategory: "BusinessApplication",
   operatingSystem: "Web",
-  url: "https://hdrcompass.co.uk",
+  url: PRODUCT_URL,
   description:
     "A case-review tool for housing disrepair and conditions claims. The fee earner reviews and confirms outputs before export.",
 };
@@ -107,7 +107,7 @@ export default function HdrCompassPage() {
             Visit the product site, or talk to HDR Keel
           </h2>
           <div className="mt-4 flex flex-wrap justify-center gap-3">
-            <Button href="https://hdrcompass.co.uk" variant="primary">
+            <Button href={PRODUCT_URL} variant="primary">
               Visit hdrcompass.co.uk
             </Button>
             <Button href="/services" variant="secondary">

@@ -12,6 +12,12 @@ export const site = {
 export const BOOKING_URL =
   process.env.NEXT_PUBLIC_BOOKING_URL || "https://calendar.app.google/35S3MsowmvkoSJ9d8";
 
+/**
+ * The HDR Compass software product site. Override via NEXT_PUBLIC_PRODUCT_URL.
+ */
+export const PRODUCT_URL =
+  process.env.NEXT_PUBLIC_PRODUCT_URL || "https://hdrcompass.co.uk";
+
 export const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },

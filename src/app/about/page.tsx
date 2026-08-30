@@ -9,7 +9,7 @@ export const metadata: Metadata = pageMetadata({
   title: "About",
   path: "/about",
   description:
-    "HDR Keel is Shaine Stead's housing disrepair consultancy for solicitors, assisted by Georgie. The instructing firm keeps conduct of its cases.",
+    "HDR Keel is Shaine Stead's housing disrepair consultancy for solicitors. The instructing firm keeps conduct of its cases.",
 });
 
 const CONDUCT =
@@ -20,12 +20,13 @@ export default function AboutPage() {
     <>
       <PageHero
         kicker="About HDR Keel"
-        title="Shaine Stead: a housing disrepair fee earner, offering his services to solicitors"
+        title="A housing disrepair fee earner, since 2013"
       >
         <p>
           HDR Keel is Shaine Stead&apos;s housing disrepair consultancy for
-          solicitors. Shaine is a fee earner who has handled these claims since
-          2013, and he offers that practice to firms that need extra capacity.
+          solicitors. Shaine is a fee earner who has personally handled
+          housing disrepair claim work since 2013, and he offers that practice
+          to firms that need extra capacity.
         </p>
       </PageHero>
 
@@ -33,30 +34,35 @@ export default function AboutPage() {
         <SectionHeading kicker="Who we are" title="Shaine Stead, assisted by Georgie">
           <p>
             Shaine is a housing disrepair fee earner who has run real cases and
-            handled disrepair claims since 2013. When a firm is short-staffed,
-            on leave or simply overloaded, he steps in to take the case work off
-            the desk: intake, disclosure reconciliation, chronology, quantum and
-            report drafting, on a clear monthly retainer.
+            personally handled housing disrepair claim work since 2013. When a
+            firm is short-staffed, on leave or simply overloaded, he steps in
+            to take the case work off the desk: intake, disclosure
+            reconciliation, chronology, quantum and report drafting, on a clear
+            monthly retainer.
           </p>
           <p className="mt-4">
-            He is assisted by Georgie. The instructing firm keeps conduct of its
-            cases at all times, and every deliverable is the firm&apos;s to review,
-            approve and sign off. Shaine supports the firm rather than replacing
-            its responsibility to the client or the regulator.
+            He is supported by Georgie, an AI case-preparation assistant that
+            drafts and organises. Every deliverable is Shaine&apos;s to review
+            and sign off before it reaches the firm. The instructing firm keeps
+            conduct of its cases at all times, and everything is the
+            firm&apos;s to approve.
           </p>
           <p className="mt-4">
             Shaine handles claimant files, including health and location
             information, only under the instructing firm&apos;s documented
-            instructions for each matter. Your data protection and confidentiality
-            obligations to the client stay with your firm, and HDR Keel works on
-            that basis from day one.
+            instructions for each matter. The instructing firm is the data
+            controller for the client&apos;s personal data and keeps conduct of
+            the matter. HDR Keel processes that data, including any health or
+            location information, only as the firm&apos;s processor, under a
+            written data-processing agreement under Article 28 of the UK GDPR.
           </p>
           <p className="mt-4">
-            HDR Compass is a separate software product for firms that want to do
-            the work themselves. HDR Keel is not a software company, not a
-            claims management company, and not a general personal injury
-            practice. It assists with personal injury only where caused by
-            housing disrepair.
+            HDR Keel is a consultancy for solicitors: case support, training
+            and AI implementation on a monthly retainer. HDR Compass is a
+            separate software product for firms that want to do the work
+            themselves. HDR Keel works for solicitors and is not a claims
+            management company; it assists with personal injury only where it
+            arises from housing disrepair.
           </p>
         </SectionHeading>
       </section>
@@ -79,14 +85,8 @@ export default function AboutPage() {
           </Card>
           <Card title="Solicitors only">
             <p>
-              HDR Keel works for solicitors. It does not work for claims
-              management companies.
-            </p>
-          </Card>
-          <Card title="Honest about scope">
-            <p>
-              Not a general personal injury practice. Assists with personal
-              injury only where caused by housing disrepair.
+              HDR Keel works for solicitors on housing disrepair and associated
+              personal injury. It does not take consumer claims directly.
             </p>
           </Card>
         </div>

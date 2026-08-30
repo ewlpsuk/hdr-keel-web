@@ -3,7 +3,7 @@ import Button from "@/components/Button";
 import Card from "@/components/Card";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata, site } from "@/lib/site";
+import { BOOKING_URL, pageMetadata, PRODUCT_URL, site } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "HDR Keel",
@@ -81,9 +81,10 @@ export default function HomePage() {
           When your team is short-staffed or overloaded, Shaine brings real
           capacity without the burden and delay of recruiting another
           permanent fee earner. He is a housing disrepair fee earner who has
-          handled these claims since 2013, offering solicitors case support on
-          a monthly retainer, practical training and help implementing AI. The
-          instructing firm keeps conduct of its cases.
+          personally handled housing disrepair claim work since 2013, offering
+          solicitors case support on a monthly retainer, practical training and
+          help implementing AI. The instructing firm keeps conduct of its
+          cases.
         </p>
       </section>
 
@@ -151,7 +152,7 @@ export default function HomePage() {
               About HDR Compass
             </Button>
             <a
-              href="https://hdrcompass.co.uk"
+              href={PRODUCT_URL}
               className="inline-flex items-center font-display text-sm text-accent-2 hover:text-accent"
             >
               Visit hdrcompass.co.uk
