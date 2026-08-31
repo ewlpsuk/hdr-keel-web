@@ -26,9 +26,9 @@ export default function PrivacyPage() {
         <SectionHeading kicker="Who controls the data" title="Controller">
           <p>
             The data controller for this website is{" "}
-            <span className="text-text">Shaine Stead</span> (trading as Stead
-            Legal Solutions), registered with the Information Commissioner&apos;s
-            Office under registration number ZB861396.
+            <span className="text-text">Shaine Stead</span>, registered with
+            the Information Commissioner&apos;s Office under registration
+            number ZB861396.
           </p>
           <p className="mt-4">
             The controller can be contacted through the booking route on this
