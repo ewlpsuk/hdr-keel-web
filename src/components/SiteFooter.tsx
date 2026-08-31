@@ -8,7 +8,7 @@ export default function SiteFooter() {
       <div className="mx-auto grid max-w-6xl gap-8 px-6 py-12 md:grid-cols-3">
         <div>
           <Logo size="footer" />
-          <p className="mt-4 text-sm text-muted">
+          <p className="mt-4 text-base text-muted">
             Shaine Stead&apos;s housing disrepair consultancy for solicitors
           </p>
         </div>
@@ -17,13 +17,13 @@ export default function SiteFooter() {
             <Link
               key={item.href}
               href={item.href}
-              className="font-display text-sm text-muted hover:text-accent"
+              className="font-display text-base text-muted hover:text-accent"
             >
               {item.label}
             </Link>
           ))}
         </nav>
-        <div className="text-sm text-muted">
+        <div className="text-base text-muted">
           <a
             href={PRODUCT_URL}
             className="text-accent-2 hover:text-accent"
@@ -31,6 +31,15 @@ export default function SiteFooter() {
             HDR Compass product site
           </a>
           <p className="mt-4">HDR Keel is operated by Shaine Stead</p>
+          <p className="mt-2">
+            Controller contact:{" "}
+            <a
+              href="mailto:privacy@hdrkeel.co.uk"
+              className="text-accent-2 hover:text-accent"
+            >
+              privacy@hdrkeel.co.uk
+            </a>
+          </p>
           <p className="mt-2">
             HDR Keel is not a claims management company, not an SRA-regulated
             law firm and not a provider of legal advice to consumers.

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import Button from "@/components/Button";
+import BrandVisual from "@/components/BrandVisual";
 import Card from "@/components/Card";
+import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import { pageMetadata, PRODUCT_URL } from "@/lib/site";
@@ -36,6 +37,14 @@ export default function HdrCompassPage() {
       <PageHero
         kicker="HDR Compass"
         title="The self-serve software option for housing disrepair firms"
+        visual={
+          <BrandVisual
+            src="/images/compass-motif.png"
+            alt=""
+            decorative
+            className="h-full min-h-[22rem]"
+          />
+        }
       >
         <p>
           HDR Compass is for firms that want to take the heavy lifting off
@@ -101,21 +110,13 @@ export default function HdrCompassPage() {
         </div>
       </section>
 
-      <section className="px-6 pb-20">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 text-center">
-          <h2 className="font-display text-3xl font-bold text-text">
-            Visit the product site, or talk to HDR Keel
-          </h2>
-          <div className="mt-4 flex flex-wrap justify-center gap-3">
-            <Button href={PRODUCT_URL} variant="primary">
-              Visit hdrcompass.co.uk
-            </Button>
-            <Button href="/services" variant="secondary">
-              Talk to HDR Keel instead
-            </Button>
-          </div>
-        </div>
-      </section>
+      <CtaBand
+        title="Visit the product site, or talk to HDR Keel"
+        primaryHref={PRODUCT_URL}
+        primaryLabel="Visit hdrcompass.co.uk"
+        secondaryHref="/services"
+        secondaryLabel="Talk to HDR Keel instead"
+      />
     </>
   );
 }

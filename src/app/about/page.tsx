@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import Button from "@/components/Button";
+import BrandVisual from "@/components/BrandVisual";
 import Card from "@/components/Card";
+import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata } from "@/lib/site";
+import { pageMetadata } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "About",
@@ -21,6 +22,20 @@ export default function AboutPage() {
       <PageHero
         kicker="About HDR Keel"
         title="A housing disrepair fee earner, since 2013"
+        visualOnMobile
+        visual={
+          <div>
+            <BrandVisual
+              src="/images/shaine-stead.jpg"
+              alt="Shaine Stead, housing disrepair fee earner"
+              className="aspect-[4/5] w-full border-t-[3px] border-t-accent"
+              imgClassName="object-top"
+            />
+            <p className="mt-3 font-mono text-xs uppercase tracking-[0.16em] text-muted">
+              Shaine Stead
+            </p>
+          </div>
+        }
       >
         <p>
           HDR Keel is Shaine Stead&apos;s housing disrepair consultancy for
@@ -30,7 +45,7 @@ export default function AboutPage() {
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl px-6 pb-16">
+      <section className="mx-auto max-w-5xl px-6 py-16">
         <SectionHeading kicker="Who we are" title="Shaine Stead, assisted by Georgie">
           <p>
             Shaine is a housing disrepair fee earner who has run real cases and
@@ -67,52 +82,42 @@ export default function AboutPage() {
         </SectionHeading>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-16">
-        <SectionHeading kicker="How we work" title="Principles" />
-        <div className="grid gap-6 md:grid-cols-2">
-          <Card title="The firm keeps conduct">
-            <p>
-              Shaine supports the firm. The firm&apos;s responsibility to its
-              client stays with the firm. HDR Keel works under instruction and
-              supervision.
-            </p>
-          </Card>
-          <Card title="Built from practice">
-            <p>
-              A fee earner who has run the cases, offering that experience to
-              other firms as case support, training and AI implementation.
-            </p>
-          </Card>
-          <Card title="Solicitors only">
-            <p>
-              HDR Keel works for solicitors on housing disrepair and associated
-              personal injury. It does not take consumer claims directly.
-            </p>
-          </Card>
+      <section className="bg-surface px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+          <SectionHeading kicker="How we work" title="Principles" />
+          <div className="grid gap-6 md:grid-cols-3">
+            <Card title="The firm keeps conduct">
+              <p>
+                Shaine supports the firm. The firm&apos;s responsibility to its
+                client stays with the firm. HDR Keel works under instruction and
+                supervision.
+              </p>
+            </Card>
+            <Card title="Built from practice">
+              <p>
+                A fee earner who has run the cases, offering that experience to
+                other firms as case support, training and AI implementation.
+              </p>
+            </Card>
+            <Card title="Solicitors only">
+              <p>
+                HDR Keel works for solicitors on housing disrepair and associated
+                personal injury. It does not take consumer claims directly.
+              </p>
+            </Card>
+          </div>
         </div>
       </section>
 
-      <section className="mx-auto max-w-5xl px-6 pb-16">
-        <blockquote className="rounded-xl border border-white/10 bg-surface p-6 text-base leading-relaxed text-muted">
+      <section className="mx-auto max-w-5xl px-6 py-16">
+        <blockquote className="rounded-xl border-l-[3px] border-accent border-y border-r border-white/10 bg-surface p-6 text-base leading-relaxed text-muted sm:p-8">
           {CONDUCT}
         </blockquote>
       </section>
 
-      <section className="px-6 pb-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-display text-3xl font-bold text-text">
-            Book a call
-          </h2>
-          <p className="mt-4 text-muted">
-            If your firm needs extra housing disrepair capacity, talk it through.
-          </p>
-          <div className="mt-8">
-            <Button href={BOOKING_URL} variant="primary">
-              Book a call
-            </Button>
-          </div>
-        </div>
-      </section>
+      <CtaBand title="Book a call">
+        <p>If your firm needs extra housing disrepair capacity, talk it through.</p>
+      </CtaBand>
     </>
   );
 }

@@ -32,11 +32,19 @@ body {
   background: var(--background);
   color: var(--text);
   font-family: var(--font-space-grotesk), var(--font-display), system-ui, sans-serif;
+  font-size: 1rem;
+  line-height: 1.65;
 }
 
 :focus-visible {
   outline: 2px solid var(--accent-2);
   outline-offset: 3px;
+}
+
+.body-copy {
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
 }
 
 .skip-link {
@@ -51,4 +59,15 @@ body {
 
 .skip-link:focus {
   top: 1rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }

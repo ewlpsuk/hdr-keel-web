@@ -4,6 +4,8 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import { BOOKING_URL, pageMetadata } from "@/lib/site";
 
+const CONTROLLER_EMAIL = "privacy@hdrkeel.co.uk";
+
 export const metadata: Metadata = pageMetadata({
   title: "Privacy notice",
   path: "/privacy",
@@ -22,7 +24,7 @@ export default function PrivacyPage() {
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl px-6 pb-16">
+      <section className="mx-auto max-w-5xl px-6 py-16">
         <SectionHeading kicker="Who controls the data" title="Controller">
           <p>
             The data controller for this website is{" "}
@@ -31,8 +33,14 @@ export default function PrivacyPage() {
             number ZB861396.
           </p>
           <p className="mt-4">
-            The controller can be contacted through the booking route on this
-            site, set out in the contact section.
+            The controller can be contacted at{" "}
+            <a
+              href={`mailto:${CONTROLLER_EMAIL}`}
+              className="text-accent hover:underline"
+            >
+              {CONTROLLER_EMAIL}
+            </a>
+            .
           </p>
         </SectionHeading>
 
@@ -81,8 +89,14 @@ export default function PrivacyPage() {
             If you are a client of a firm that HDR Keel supports, your rights
             over your personal data are exercised through the instructing firm
             as the controller. If you have a question about this notice or how
-            your data is handled, contact the controller through this
-            site&apos;s booking route.
+            your data is handled, email the controller at{" "}
+            <a
+              href={`mailto:${CONTROLLER_EMAIL}`}
+              className="text-accent hover:underline"
+            >
+              {CONTROLLER_EMAIL}
+            </a>
+            . Data protection enquiries are handled directly and confidentially.
           </p>
           <p className="mt-4">
             This site and the handling of personal data under it are governed
@@ -92,10 +106,15 @@ export default function PrivacyPage() {
 
         <SectionHeading kicker="How to reach the controller" title="Contact">
           <p>
-            The quickest way to reach the controller is to book a short call
-            using the booking slot on this site. You will get a link to join
-            a call automatically, and can raise a data protection query
-            there.
+            For data protection enquiries, email the controller directly at{" "}
+            <a
+              href={`mailto:${CONTROLLER_EMAIL}`}
+              className="text-accent hover:underline"
+            >
+              {CONTROLLER_EMAIL}
+            </a>
+            . You can also book a short call using the booking slot on this
+            site if you prefer to speak to someone.
           </p>
           <Button href={BOOKING_URL} variant="primary">
             Book a call

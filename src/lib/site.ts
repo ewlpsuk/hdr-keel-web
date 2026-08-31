@@ -49,7 +49,7 @@ export function pageMetadata(input: {
       description: input.description,
       url,
       siteName: site.name,
-      images: [{ url: "/og-image.svg", width: 1200, height: 630 }],
+      images: [{ url: "/og-image.png", width: 1200, height: 630 }],
       locale: "en_GB",
       type: "website",
     },
@@ -57,7 +57,7 @@ export function pageMetadata(input: {
       card: "summary_large_image" as const,
       title,
       description: input.description,
-      images: ["/og-image.svg"],
+      images: ["/og-image.png"],
     },
   };
 }

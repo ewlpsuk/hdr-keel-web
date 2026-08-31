@@ -33,7 +33,7 @@ export default function SiteHeader() {
   }, [open]);
 
   return (
-    <header className="sticky top-0 z-40 border-b border-white/10 bg-background">
+    <header className="sticky top-0 z-40 border-b border-white/10 bg-background/95 backdrop-blur-md">
       <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-6 py-4">
         <Logo size="header" />
         <nav className="hidden items-center gap-6 lg:flex" aria-label="Primary">
@@ -41,7 +41,7 @@ export default function SiteHeader() {
             <Link
               key={item.href}
               href={item.href}
-              className={`font-display text-sm ${
+              className={`font-display text-base ${
                 isActive(pathname, item.href)
                   ? "text-accent"
                   : "text-muted hover:text-text"

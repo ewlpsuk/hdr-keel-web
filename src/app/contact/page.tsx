@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import BrandVisual from "@/components/BrandVisual";
 import Button from "@/components/Button";
+import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import { BOOKING_URL, pageMetadata, PRODUCT_URL } from "@/lib/site";
@@ -14,7 +16,20 @@ export const metadata: Metadata = pageMetadata({
 export default function ContactPage() {
   return (
     <>
-      <PageHero kicker="Contact" title="Get in touch">
+      <PageHero
+        kicker="Contact"
+        title="Get in touch"
+        primaryHref={BOOKING_URL}
+        primaryLabel="Book a call"
+        visual={
+          <BrandVisual
+            src="/images/hero-terrace.png"
+            alt=""
+            decorative
+            className="h-full min-h-[22rem]"
+          />
+        }
+      >
         <p>
           Solicitors are invited to get in touch about case support, training
           or AI implementation. You&apos;ll talk to a housing disrepair fee
@@ -22,7 +37,7 @@ export default function ContactPage() {
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl px-6 pb-16">
+      <section className="mx-auto max-w-5xl px-6 py-16">
         <div className="grid gap-10 lg:grid-cols-2">
           <div>
             <SectionHeading kicker="Routes" title="Book a call">
@@ -37,7 +52,7 @@ export default function ContactPage() {
                 Book a call
               </Button>
             </div>
-            <ul className="mt-8 space-y-4 text-muted">
+            <ul className="mt-8 space-y-4 text-base text-muted">
               <li>
                 <span className="font-display text-text">Case support</span>
                 <p>
@@ -71,11 +86,11 @@ export default function ContactPage() {
               </li>
             </ul>
           </div>
-          <div className="rounded-xl border border-white/10 bg-surface p-6">
+          <div className="rounded-xl border border-white/10 border-t-[3px] border-t-accent bg-surface p-6 sm:p-8">
             <h2 className="font-display text-2xl font-bold text-text">
               What happens once you book
             </h2>
-            <ul className="mt-4 space-y-3 text-muted">
+            <ul className="mt-4 space-y-3 text-base leading-relaxed text-muted">
               <li>
                 You pick a time that suits your firm. A Google Meet link is
                 attached automatically.
@@ -93,16 +108,11 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <section className="px-6 pb-20">
-        <div className="mx-auto flex max-w-3xl flex-col items-center gap-4 text-center">
-          <Button href={BOOKING_URL} variant="primary">
-            Book a call
-          </Button>
-          <Button href="/services" variant="secondary">
-            See the services
-          </Button>
-        </div>
-      </section>
+      <CtaBand
+        title="Book a call"
+        secondaryHref="/services"
+        secondaryLabel="See the services"
+      />
     </>
   );
 }

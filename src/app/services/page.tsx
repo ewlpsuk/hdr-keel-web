@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
+import BrandVisual from "@/components/BrandVisual";
 import Button from "@/components/Button";
+import Card from "@/components/Card";
+import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import { BOOKING_URL, pageMetadata } from "@/lib/site";
@@ -20,6 +23,14 @@ export default function ServicesPage() {
       <PageHero
         kicker="Services"
         title="Case support, training and AI implementation for solicitors"
+        visual={
+          <BrandVisual
+            src="/images/service-case.png"
+            alt=""
+            decorative
+            className="h-full min-h-[22rem]"
+          />
+        }
       >
         <p>
           HDR Keel helps solicitors with outsourced housing disrepair case
@@ -28,15 +39,18 @@ export default function ServicesPage() {
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl px-6 pb-16">
-        <div className="rounded-xl border border-white/10 bg-surface p-8">
-          <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            Case support
-          </p>
-          <h2 className="mt-3 font-display text-3xl font-bold text-text">
-            Outsourced case support
-          </h2>
-          <p className="mt-4 text-muted leading-relaxed">
+      <section className="mx-auto max-w-5xl space-y-10 px-6 py-16">
+        <Card
+          kicker="Case support"
+          title="Outsourced case support"
+          heading="h2"
+          split
+          image={{
+            src: "/images/service-case.png",
+            alt: "Geometric case-file mark for outsourced case support",
+          }}
+        >
+          <p>
             Shaine steps in when a firm is short-staffed, on annual leave, or
             simply overloaded. He is a housing disrepair fee earner who has
             personally handled housing disrepair claim work since 2013. He does
@@ -46,86 +60,79 @@ export default function ServicesPage() {
             at no more than 10 hours per week per client so he never
             over-commits.
           </p>
-          <p className="mt-6 leading-relaxed text-muted">{CONDUCT}</p>
-          <div className="mt-8">
+          <p className="mt-6">{CONDUCT}</p>
+          <p className="mt-8">
             <Button href="/pricing" variant="primary">
               See pricing
             </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-6 pb-16">
-        <div className="rounded-xl border border-white/10 bg-surface p-8">
-          <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            Training
           </p>
-          <h2 className="mt-3 font-display text-3xl font-bold text-text">
-            Training
-          </h2>
-          <p className="mt-4 text-muted leading-relaxed">
+        </Card>
+
+        <Card
+          kicker="Training"
+          title="Training"
+          heading="h2"
+          split
+          image={{
+            src: "/images/service-training.png",
+            alt: "Geometric board mark for training",
+          }}
+        >
+          <p>
             Staff training on housing disrepair and on AI for legal work, from
             new fee earners to experienced practitioners. A group session
             counts as one booking, so a firm can send a whole team at no extra
             cost. Daily rate for one-offs, reduced for a weekly block.
           </p>
-          <div className="mt-8">
+          <p className="mt-8">
             <Button href={BOOKING_URL} variant="primary">
               Book a training day
             </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-6 pb-16">
-        <div className="rounded-xl border border-white/10 bg-surface p-8">
-          <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
-            AI implementation
           </p>
-          <h2 className="mt-3 font-display text-3xl font-bold text-text">
-            AI implementation and efficiency consulting
-          </h2>
-          <p className="mt-4 text-muted leading-relaxed">
+        </Card>
+
+        <Card
+          kicker="AI implementation"
+          title="AI implementation and efficiency consulting"
+          heading="h2"
+          split
+          image={{
+            src: "/images/service-ai.png",
+            alt: "Geometric node mark for AI implementation",
+          }}
+        >
+          <p>
             Setting up and embedding AI tools in a firm&apos;s workflow so fee
             earners work faster and more consistently, and consulting on how to
             reduce fee-earner time on housing disrepair cases.
           </p>
-          <div className="mt-8">
+          <p className="mt-8">
             <Button href={BOOKING_URL} variant="primary">
               Book a call
             </Button>
-          </div>
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-6 pb-16">
-        <SectionHeading
-          kicker="Self-serve"
-          title="HDR Compass is the option for firms that want to do it themselves"
-        >
-          <p>
-            If the firm wants to keep the work in-house, HDR Compass is the
-            software product for that route. HDR Keel remains available for
-            outsourced help.
           </p>
-        </SectionHeading>
-        <Button href="/hdr-compass" variant="secondary">
-          About HDR Compass
-        </Button>
+        </Card>
       </section>
 
-      <section className="px-6 pb-20">
-        <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-display text-3xl font-bold text-text">
-            Book a call
-          </h2>
-          <div className="mt-8">
-            <Button href={BOOKING_URL} variant="primary">
-              Book a call
-            </Button>
-          </div>
+      <section className="bg-surface px-6 py-16">
+        <div className="mx-auto max-w-5xl">
+          <SectionHeading
+            kicker="Self-serve"
+            title="HDR Compass is the option for firms that want to do it themselves"
+          >
+            <p>
+              If the firm wants to keep the work in-house, HDR Compass is the
+              software product for that route. HDR Keel remains available for
+              outsourced help.
+            </p>
+          </SectionHeading>
+          <Button href="/hdr-compass" variant="secondary">
+            About HDR Compass
+          </Button>
         </div>
       </section>
+
+      <CtaBand title="Book a call" />
     </>
   );
 }

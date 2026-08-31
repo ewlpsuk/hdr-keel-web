@@ -14,9 +14,13 @@ export default function SectionHeading({
       <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
         {kicker}
       </p>
-      <h2 className="mt-3 font-display text-3xl font-bold text-text">{title}</h2>
+      <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-text">
+        {title}
+      </h2>
       {children ? (
-        <div className="mt-4 text-base leading-relaxed text-muted">{children}</div>
+        <div className="body-copy mt-4 text-base leading-relaxed text-muted sm:text-lg">
+          {children}
+        </div>
       ) : null}
     </div>
   );
