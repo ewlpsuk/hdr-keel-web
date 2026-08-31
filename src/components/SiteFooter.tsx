@@ -36,6 +36,11 @@ export default function SiteFooter() {
             law firm and not a provider of legal advice to consumers.
           </p>
           <p className="mt-2">© 2026 HDR Keel</p>
+          <p className="mt-2">
+            <Link href="/privacy" className="text-accent-2 hover:text-accent">
+              Privacy notice
+            </Link>
+          </p>
         </div>
       </div>
     </footer>
