@@ -34,6 +34,12 @@ export default function SiteFooter() {
           >
             How it works
           </Link>
+          <Link
+            href="/news"
+            className="font-display text-base text-muted hover:text-accent"
+          >
+            News
+          </Link>
         </nav>
         <div className="text-base text-muted">
           <a
