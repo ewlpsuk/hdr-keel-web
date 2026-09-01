@@ -25,6 +25,17 @@ export default function ServicesPage() {
           work, staff training, and AI implementation. The firm always keeps
           conduct of its cases.
         </p>
+        <p className="mt-4">
+          For the latest housing-disrepair case law, regulation and legal
+          technology, see our{" "}
+          <a
+            href="/news"
+            className="text-accent underline hover:text-text"
+          >
+            housing disrepair news and legal updates
+          </a>
+          .
+        </p>
       </PageHero>
 
       <section className="mx-auto max-w-5xl space-y-10 px-6 py-16">
