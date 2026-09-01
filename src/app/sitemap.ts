@@ -3,18 +3,33 @@ import { navItems, site } from "@/lib/site";
 
 export const dynamic = "force-static";
 
+const LAST_MODIFIED = "2026-09-01";
+
+const servicePages = [
+  "/services/case-support",
+  "/services/training",
+  "/services/ai-implementation",
+];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const nav = navItems.map((item) => ({
     url: `${site.url}${item.href === "/" ? "/" : `${item.href}/`}`,
-    lastModified: new Date("2026-08-30"),
+    lastModified: LAST_MODIFIED,
     changeFrequency: "monthly" as const,
     priority: item.href === "/" ? 1 : 0.7,
   }));
+  const services = servicePages.map((href) => ({
+    url: `${site.url}${href}/`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly" as const,
+    priority: 0.7,
+  }));
   return [
     ...nav,
+    ...services,
     {
       url: `${site.url}/privacy/`,
-      lastModified: new Date("2026-08-30"),
+      lastModified: LAST_MODIFIED,
       changeFrequency: "yearly",
       priority: 0.2,
     },
