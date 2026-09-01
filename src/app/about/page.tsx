@@ -46,7 +46,7 @@ export default function AboutPage() {
       </PageHero>
 
       <section className="mx-auto max-w-5xl px-6 py-16">
-        <SectionHeading kicker="Who we are" title="Shaine Stead, assisted by Georgie">
+        <SectionHeading kicker="Who we are" title="Shaine Stead, with Georgie on the backend">
           <p>
             Shaine is a housing disrepair fee earner who has run real cases and
             personally handled housing disrepair claim work since 2013. When a
@@ -56,10 +56,10 @@ export default function AboutPage() {
             monthly retainer.
           </p>
           <p className="mt-4">
-            He is supported by Georgie, an AI case-preparation assistant that
-            drafts and organises. Every deliverable is Shaine&apos;s to review
-            and sign off before it reaches the firm. The instructing firm keeps
-            conduct of its cases at all times, and everything is the
+            He is supported by Georgie, who handles the backend and
+            administrative side of the work. Every deliverable is Shaine&apos;s
+            to review and sign off before it reaches the firm. The instructing
+            firm keeps conduct of its cases at all times, and everything is the
             firm&apos;s to approve.
           </p>
           <p className="mt-4">
