@@ -1,13 +1,61 @@
 {
-  "updated": "2026-09-01",
+  "updated": "2026-09-02",
   "items": [
     {
-      "title": "Crackdown on dangerous rented homes as new £7k fines kick in",
-      "source": "GOV.UK (MHCLG)",
-      "url": "https://www.gov.uk/government/news/crack-down-on-dangerous-rented-homes-as-new-7k-fines-kick-in",
+      "title": "Awaab's Law Phase 2: Moving beyond damp and mould",
+      "source": "NEC Software Solutions (NEC Housing)",
+      "url": "https://www.necsws.com/article/housing/awaabs-law-phase-2-moving-beyond-damp-and-mould",
       "category": "Housing law",
-      "date": "21/06/2026",
-      "summary": "Councils can issue fines up to £7,000 from 22 June 2026 where Category 1 HHSRS hazards in rented homes are not remedied, as reported by GOV.UK."
+      "date": "01/09/2026",
+      "summary": "As reported by NEC Software Solutions, Phase 2 of Awaab's Law takes effect on 30 November 2026 and extends significant-hazard duties beyond damp and mould to excess cold and heat, falls, structural collapse, fire and explosions, electrical safety and domestic hygiene, with greater emphasis on hazard triage and record keeping."
+    },
+    {
+      "title": "London Assembly calls for mayoral plan to reduce heat-related deaths in social homes",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/london-assembly-calls-for-mayoral-plan-to-reduce-heat-related-deaths-in-social-homes/5143844.article",
+      "category": "Housing law",
+      "date": "28/08/2026",
+      "summary": "As reported by Housing Today, the London Assembly's planning and regeneration committee has called on the mayor to publish a roadmap for reducing heat-related deaths in social homes, including retrofitting shutters, shading and improved ventilation. Research estimates that 75% of London's social homes are at high risk of overheating, a hazard that comes into scope under Phase 2 of Awaab's Law."
+    },
+    {
+      "title": "Google, Weil + Gemini Enterprise for Legal",
+      "source": "Artificial Lawyer",
+      "url": "https://www.artificiallawyer.com/2026/08/27/google-weil-gemini-enterprise-for-legal/",
+      "category": "Legal tech",
+      "date": "27/08/2026",
+      "summary": "As reported by Artificial Lawyer, US firm Weil contributed to the development of Google's Gemini Enterprise for Legal and has built internal tools on it, including BenchMark for analysing judges' records. The interview with Weil's Chief AI and Innovation Officer discusses a multi-model strategy where lawyers can keep working in Word while AI work happens on Google's infrastructure."
+    },
+    {
+      "title": "Consumer upgrades for two housing associations",
+      "source": "GOV.UK (Regulator of Social Housing)",
+      "url": "https://www.gov.uk/government/news/consumer-upgrades-for-two-housing-associations",
+      "category": "Regulation",
+      "date": "26/08/2026",
+      "summary": "As reported by GOV.UK, the Regulator of Social Housing upgraded Livin Housing and Community Gateway from C2 to C1 consumer grades in judgements published on 26 August 2026. The regulator also graded Amplius Living C2, G1 and V2, noting weaknesses in its repairs service and challenges in meeting the increased legal requirements for tackling damp and mould under Awaab's Law."
+    },
+    {
+      "title": "Appeal for housing lawyers to continue late solicitor's 'invaluable' blog",
+      "source": "Law Society Gazette",
+      "url": "https://www.lawgazette.co.uk/news/appeal-for-housing-lawyers-to-continue-late-solicitors-invaluable-blog/5127742.article",
+      "category": "Firm practice",
+      "date": "26/08/2026",
+      "summary": "Following the death of housing lawyer Giles Peaker, Justin Bates KC appeals for volunteers to help continue his Nearly Legal blog, aiming to relaunch by October, as reported by the Law Society Gazette."
+    },
+    {
+      "title": "RSH adds Rentplus Homes Limited to gradings under review list",
+      "source": "GOV.UK (Regulator of Social Housing)",
+      "url": "https://www.gov.uk/government/news/rsh-adds-rentplus-homes-limited-to-gradings-under-review-list",
+      "category": "Regulation",
+      "date": "18/08/2026",
+      "summary": "As reported by GOV.UK, the Regulator of Social Housing placed Rentplus Homes Limited on its gradings under review list on 18 August 2026 while investigating matters that may indicate serious failings in delivering the outcomes of the Governance and Financial Viability Standard. The Milton Keynes based landlord has fewer than 1,000 social housing units and does not therefore hold grades."
+    },
+    {
+      "title": "Misuse of AI - Warning notice",
+      "source": "Solicitors Regulation Authority",
+      "url": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
+      "category": "Legal tech",
+      "date": "17/08/2026",
+      "summary": "A warning notice reminds firms and solicitors that they remain accountable for AI outputs, including accurate citations and client confidentiality, as reported by the Solicitors Regulation Authority."
     },
     {
       "title": "Awaab's Law Phase 2: Guidance for social housing landlords",
@@ -18,12 +66,12 @@
       "summary": "Guidance for social landlords on Phase 2 of Awaab's Law, extending significant-hazard duties to seven further hazard groups from 30 November 2026, as reported by GOV.UK."
     },
     {
-      "title": "Housing Health and Safety Rating System (HHSRS) guidance",
-      "source": "GOV.UK (MHCLG)",
-      "url": "https://www.gov.uk/government/collections/housing-health-and-safety-rating-system-hhsrs-guidance",
-      "category": "Housing law",
-      "date": "23/06/2026",
-      "summary": "New statutory HHSRS operating and enforcement guidance follows regulations that reduce the hazard list from 29 to 21, as reported by GOV.UK."
+      "title": "Housing Ombudsman publishes revised Scheme and consultation outcome ahead of STAIRs",
+      "source": "Housing Ombudsman",
+      "url": "https://www.housing-ombudsman.org.uk/2026/07/30/housing-ombudsman-publishes-revised-scheme-and-consultation-outcome-ahead-of-stairs/",
+      "category": "Regulation",
+      "date": "30/07/2026",
+      "summary": "The Ombudsman published the outcome of its STAIRs consultation and a revised Scheme, effective 1 October 2026, covering tenant information requests, as reported by the Housing Ombudsman."
     },
     {
       "title": "Housing Health and Safety Rating System (HHSRS): Case studies",
@@ -34,60 +82,20 @@
       "summary": "Illustrated case studies demonstrate how the revised HHSRS assessment and scoring process applies across the 21 hazards, as reported by GOV.UK."
     },
     {
+      "title": "Superior Landlord Liability, Damp and Mould Claims and Fitness for Human Habitation",
+      "source": "Swinburne Maddison",
+      "url": "https://www.swinburnemaddison.co.uk/insights/article/superior-landlord-liability-damp-and-mould-claims-and-fitness-for-human-habitation/",
+      "category": "Case law",
+      "date": "15/07/2026",
+      "summary": "As reported by Swinburne Maddison, a County Court judgment in Kemp v Henderson Property Management Solutions Ltd, on 15 July 2026, awarded more than £39,000 against the immediate landlord and over £10,000 against the superior landlord for damp and mould and unfitness for human habitation. The case note highlights that a claim can succeed without expert surveyor evidence where strong documentary evidence exists."
+    },
+    {
       "title": "Joseph Harvey & Anor v Polly Louise Heaver & Anor",
       "source": "Find Case Law, The National Archives",
       "url": "https://caselaw.nationalarchives.gov.uk/ewhc/kb/2026/1671",
       "category": "Case law",
       "date": "03/07/2026",
-      "summary": "The High Court found a let property unfit for human habitation under section 9A of the Landlord and Tenant Act 1985 and ordered specific performance."
-    },
-    {
-      "title": "Housing Ombudsman publishes revised Scheme and consultation outcome ahead of STAIRs",
-      "source": "Housing Ombudsman",
-      "url": "https://www.housing-ombudsman.org.uk/2026/07/30/housing-ombudsman-publishes-revised-scheme-and-consultation-outcome-ahead-of-stairs/",
-      "category": "Regulation",
-      "date": "30/07/2026",
-      "summary": "The Ombudsman published the outcome of its STAIRs consultation and a revised Scheme, effective 1 October 2026, covering tenant information requests."
-    },
-    {
-      "title": "New Ombudsman report identifies lessons from monitoring the Complaint Handling Code",
-      "source": "Housing Ombudsman",
-      "url": "https://www.housing-ombudsman.org.uk/2026/07/28/new-ombudsman-report-identifies-lessons-from-monitoring-the-complaint-handling-code/",
-      "category": "Regulation",
-      "date": "28/07/2026",
-      "summary": "The Ombudsman's first report from monitoring landlord compliance with the Complaint Handling Code identifies common weaknesses in complaint policies."
-    },
-    {
-      "title": "Housing disrepair claims",
-      "source": "GOV.UK (MHCLG and Ministry of Justice)",
-      "url": "https://www.gov.uk/government/calls-for-evidence/housing-disrepair-claims",
-      "category": "Firm practice",
-      "date": "04/12/2025",
-      "summary": "A joint call for evidence on claims management activity in housing disrepair covered referral fees and solicitors' direct marketing; it closed on 12 February 2026."
-    },
-    {
-      "title": "Misuse of AI - Warning notice",
-      "source": "Solicitors Regulation Authority",
-      "url": "https://www.sra.org.uk/solicitors/guidance/misuse-ai/",
-      "category": "Legal tech",
-      "date": "17/08/2026",
-      "summary": "A warning notice reminds firms and solicitors that they remain accountable for AI outputs, including accurate citations and client confidentiality."
-    },
-    {
-      "title": "SRA issues AI usage warning notice",
-      "source": "Legal IT Insider",
-      "url": "https://legaltechnology.com/sra-issues-ai-usage-warning-notice/",
-      "category": "Legal tech",
-      "date": "17/08/2026",
-      "summary": "Legal IT trade press reports the SRA's warning notice on AI misuse and the 42 reports of potential AI misuse received in a year."
-    },
-    {
-      "title": "Appeal for housing lawyers to continue late solicitor's 'invaluable' blog",
-      "source": "Law Society Gazette",
-      "url": "https://www.lawgazette.co.uk/news/appeal-for-housing-lawyers-to-continue-late-solicitors-invaluable-blog/5127742.article",
-      "category": "Firm practice",
-      "date": "26/08/2026",
-      "summary": "Following the death of housing lawyer Giles Peaker, Justin Bates KC appeals for volunteers to help continue his Nearly Legal blog, aiming to relaunch by October."
+      "summary": "The High Court found a let property unfit for human habitation under section 9A of the Landlord and Tenant Act 1985 and ordered specific performance, as reported by Find Case Law at The National Archives."
     }
   ]
 }
