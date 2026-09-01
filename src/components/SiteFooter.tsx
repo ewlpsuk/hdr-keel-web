@@ -22,6 +22,18 @@ export default function SiteFooter() {
               {item.label}
             </Link>
           ))}
+          <Link
+            href="/for-solicitors"
+            className="font-display text-base text-muted hover:text-accent"
+          >
+            Who it is for
+          </Link>
+          <Link
+            href="/how-it-works"
+            className="font-display text-base text-muted hover:text-accent"
+          >
+            How it works
+          </Link>
         </nav>
         <div className="text-base text-muted">
           <a

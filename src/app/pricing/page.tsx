@@ -18,26 +18,26 @@ const tiers = [
     name: "Lite",
     hours: "10 hours per month",
     price: "£700",
-    note: "For firms that need occasional cover",
+    note: "For a firm with a light or occasional caseload that needs cover for leave, a spike or a single complex file.",
   },
   {
     name: "Standard",
     hours: "20 hours per month",
     price: "£1,330",
-    note: "For a regular part-time resource",
+    note: "For a firm running a steady disrepair caseload that wants a regular, part-time fee-earner resource each month.",
     featured: true,
   },
   {
     name: "Pro",
     hours: "30 hours per month",
     price: "£1,890",
-    note: "For heavy or complex caseloads",
+    note: "For a firm with a heavier or more complex caseload where most of the fee-earner work is outsourced.",
   },
   {
     name: "Max",
     hours: "40 hours per month",
     price: "£2,380",
-    note: "For near-continuous cover",
+    note: "For a firm that wants near-continuous cover across a large or full caseload.",
   },
 ];
 

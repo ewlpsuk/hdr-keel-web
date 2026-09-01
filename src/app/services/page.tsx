@@ -33,6 +33,10 @@ export default function ServicesPage() {
             kicker="Case support"
             title="Outsourced case support"
             heading="h2"
+            image={{
+              src: "/images/service-case.png",
+              alt: "Geometric case-file mark for outsourced case support",
+            }}
           >
             <p>
               Shaine steps in when a firm is short-staffed, on annual leave, or
@@ -50,6 +54,10 @@ export default function ServicesPage() {
             kicker="Training"
             title="Training"
             heading="h2"
+            image={{
+              src: "/images/service-training.png",
+              alt: "Geometric board mark for training",
+            }}
           >
             <p>
               Staff training on housing disrepair and on AI for legal work, from
@@ -66,6 +74,10 @@ export default function ServicesPage() {
             kicker="AI implementation"
             title="AI implementation and efficiency consulting"
             heading="h2"
+            image={{
+              src: "/images/service-ai.png",
+              alt: "Geometric node mark for AI implementation",
+            }}
           >
             <p>
               Setting up and embedding AI tools in a firm&apos;s workflow so fee

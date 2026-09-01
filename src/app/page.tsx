@@ -27,6 +27,33 @@ const organisationJsonLd = {
   description: site.description,
 };
 
+const deskWork = [
+  {
+    title: "Intake triage",
+    text: "Go/no-go on new files, so a firm knows early which matters are worth the time and cost.",
+  },
+  {
+    title: "Disclosure reconciliation",
+    text: "Reconciling disclosure against the pleaded defects, so gaps and admissions surface while the file is still the firm's to fix.",
+  },
+  {
+    title: "Chronology and quantum",
+    text: "Building the chronology and the quantum, from the rent record and the repair history to a defensible figure.",
+  },
+  {
+    title: "Report drafting",
+    text: "Drafting the reports and the letters of claim for the firm's review, sign-off and issue.",
+  },
+  {
+    title: "Offers strategy",
+    text: "Working the offers position, so the firm walks into negotiation with the numbers and the Part 36 logic in hand.",
+  },
+  {
+    title: "Surveyor and expert instruction",
+    text: "Supporting the instruction of surveyors and experts under the pre-action protocol, so the evidence is in place.",
+  },
+];
+
 export default function HomePage() {
   return (
     <>
@@ -72,67 +99,110 @@ export default function HomePage() {
         </p>
       </section>
 
-      <section className="mx-auto max-w-6xl px-6 pb-20">
-        <SectionHeading kicker="What we do" title="Three ways HDR Keel helps firms">
+      <section className="bg-surface px-6 py-16">
+        <div className="mx-auto max-w-6xl">
+          <SectionHeading
+            kicker="What Shaine takes off the desk"
+            title="The case work itself, on a monthly retainer"
+          >
+            <p>
+              Each item below is a fee-earner task Shaine runs on live matters,
+              delivered under the firm&apos;s instruction and capped at no more
+              than 10 hours per week per client so he never over-commits.
+            </p>
+          </SectionHeading>
+          <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+            {deskWork.map((item) => (
+              <Card key={item.title} title={item.title} heading="h3">
+                <p>{item.text}</p>
+              </Card>
+            ))}
+          </div>
+          <p className="mt-8">
+            <Button href="/pricing" variant="secondary">
+              See the retainers
+            </Button>
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <SectionHeading
+          kicker="Who it is for"
+          title="Solicitors on housing disrepair, working under your conduct"
+        >
           <p>
-            Case support on a monthly retainer, training on housing disrepair
-            and AI, and AI implementation inside the firm&apos;s own workflow.
+            HDR Keel works for solicitors on housing disrepair and associated
+            personal injury that arises from it. It does not take consumer
+            claims directly and does not work for claims management companies.
           </p>
         </SectionHeading>
-        <div className="grid gap-6 md:grid-cols-3">
+        <div className="grid gap-6 md:grid-cols-2">
           <Card
-            title="Outsourced case support"
-            image={{
-              src: "/images/service-case.png",
-              alt: "Geometric case-file mark for outsourced case support",
-            }}
+            kicker="Is your firm the right fit"
+            title="Who HDR Keel is for"
+            heading="h2"
           >
             <p>
-              Shaine steps in when firms are short-staffed. Intake, disclosure
-              reconciliation, chronology, reports and offers strategy, on a
-              monthly retainer.
+              The eligibility boundary, the exclusion list and the questions
+              firms most often ask, answered directly.
             </p>
-            <p className="mt-4">
-              <Button href="/pricing" variant="secondary">
-                See pricing
+            <p className="mt-6">
+              <Button href="/for-solicitors" variant="secondary">
+                Read who it is for
               </Button>
             </p>
           </Card>
           <Card
-            title="Training"
-            image={{
-              src: "/images/service-training.png",
-              alt: "Geometric board mark for training",
-            }}
+            kicker="How an engagement runs"
+            title="How it works"
+            heading="h2"
           >
             <p>
-              Staff training on housing disrepair and on AI, from new fee
-              earners to experienced practitioners. Individuals or a group at
-              no extra cost.
+              From the first call to the retainer, the Article 28 data
+              agreement, conduct and the first month of work.
             </p>
-            <p className="mt-4">
-              <Button href="/services" variant="secondary">
-                See services
+            <p className="mt-6">
+              <Button href="/how-it-works" variant="secondary">
+                See how it works
               </Button>
             </p>
           </Card>
-          <Card
-            title="AI implementation"
-            image={{
-              src: "/images/service-ai.png",
-              alt: "Geometric node mark for AI implementation",
-            }}
-          >
-            <p>
-              Setting up AI in a firm&apos;s workflow and consulting on how to
-              reduce fee-earner time on housing disrepair cases.
-            </p>
-            <p className="mt-4">
-              <Button href="/services" variant="secondary">
-                See services
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 pb-16">
+        <div className="grid items-center gap-10 lg:grid-cols-[minmax(16rem,22rem)_1fr]">
+          <BrandVisual
+            src="/images/shaine-stead.jpg"
+            alt="Shaine Stead, housing disrepair fee earner"
+            className="aspect-[4/5] w-full border-t-[3px] border-t-accent"
+            imgClassName="object-top"
+          />
+          <div>
+            <SectionHeading
+              kicker="Meet Shaine"
+              title="A fee earner who has run these cases"
+            >
+              <p>
+                You will talk to a housing disrepair fee earner who has
+                personally handled housing disrepair claim work since 2013,
+                not a sales team. He is supported by Georgie on the backend,
+                and every deliverable is Shaine&apos;s to review and sign off
+                before it reaches the firm.
+              </p>
+              <p className="mt-4">
+                The instructing firm retains conduct of the matter and all
+                responsibility to its client and to the regulator. HDR Keel
+                works under the firm&apos;s instruction and supervision.
+              </p>
+            </SectionHeading>
+            <div className="flex flex-wrap gap-3">
+              <Button href="/about" variant="secondary">
+                About HDR Keel
               </Button>
-            </p>
-          </Card>
+            </div>
+          </div>
         </div>
       </section>
 

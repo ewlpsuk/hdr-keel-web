@@ -11,6 +11,8 @@ const servicePages = [
   "/services/ai-implementation",
 ];
 
+const infoPages = ["/for-solicitors", "/how-it-works"];
+
 export default function sitemap(): MetadataRoute.Sitemap {
   const nav = navItems.map((item) => ({
     url: `${site.url}${item.href === "/" ? "/" : `${item.href}/`}`,
@@ -24,9 +26,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
+  const info = infoPages.map((href) => ({
+    url: `${site.url}${href}/`,
+    lastModified: LAST_MODIFIED,
+    changeFrequency: "monthly" as const,
+    priority: 0.6,
+  }));
   return [
     ...nav,
     ...services,
+    ...info,
     {
       url: `${site.url}/privacy/`,
       lastModified: LAST_MODIFIED,
