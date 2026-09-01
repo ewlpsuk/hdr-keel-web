@@ -11,7 +11,7 @@ const servicePages = [
   "/services/ai-implementation",
 ];
 
-const infoPages = ["/for-solicitors", "/how-it-works", "/news"];
+const infoPages = ["/for-solicitors", "/how-it-works"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const nav = navItems.map((item) => ({

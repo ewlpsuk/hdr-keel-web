@@ -44,7 +44,7 @@ export default function ServicesPage() {
               chronology, quantum, report drafting and offers strategy, on a
               monthly retainer.
             </p>
-            <p className="mt-6">
+            <p className="mt-auto pt-6">
               <Button href="/services/case-support" variant="secondary">
                 Learn more
               </Button>
@@ -64,7 +64,7 @@ export default function ServicesPage() {
               new fee earners to experienced practitioners. A group session
               counts as one booking.
             </p>
-            <p className="mt-6">
+            <p className="mt-auto pt-6">
               <Button href="/services/training" variant="secondary">
                 Learn more
               </Button>
@@ -84,7 +84,7 @@ export default function ServicesPage() {
               earners work faster and more consistently, with the human sign-off
               intact.
             </p>
-            <p className="mt-6">
+            <p className="mt-auto pt-6">
               <Button href="/services/ai-implementation" variant="secondary">
                 Learn more
               </Button>

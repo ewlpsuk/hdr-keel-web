@@ -54,7 +54,7 @@ function ExternalLink({ url }: { url: string }) {
 
 function StandardCard({ item }: { item: NewsItem }) {
   return (
-    <article className="rounded-xl border border-white/10 bg-surface p-6">
+    <article className="flex h-full flex-col rounded-xl border border-white/10 bg-surface p-6">
       <div className="flex flex-wrap items-center gap-x-3 gap-y-1 font-mono text-xs uppercase tracking-wider text-muted">
         <span>{item.date}</span>
         <span aria-hidden="true" className="h-1.5 w-1.5 rounded-full bg-accent" />
@@ -76,7 +76,7 @@ function StandardCard({ item }: { item: NewsItem }) {
           {item.title}
         </h3>
       </a>
-      <p className="mt-2 line-clamp-2 text-base leading-relaxed text-muted">
+      <p className="mt-2 line-clamp-2 flex-1 text-base leading-relaxed text-muted">
         {item.summary}
       </p>
       <div className="mt-4">
@@ -116,7 +116,7 @@ export default function NewsList() {
         {/* Ticker rail */}
         <div
           aria-hidden="true"
-          className="mb-10 flex h-6 items-center overflow-hidden border-b border-white/10 bg-surface px-6"
+          className="mb-8 flex h-6 items-center overflow-hidden border-b border-white/10 bg-surface px-6"
         >
           <div className="flex shrink-0 items-center gap-6 whitespace-nowrap font-mono text-xs uppercase tracking-wider text-muted motion-safe:animate-ticker">
             {[...CATEGORY_ORDER, ...CATEGORY_ORDER, ...CATEGORY_ORDER].map(
@@ -130,7 +130,7 @@ export default function NewsList() {
           </div>
         </div>
 
-        <div className="mx-auto grid max-w-6xl items-end gap-10 lg:grid-cols-[1fr_220px]">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1fr_220px]">
           <div>
             <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
               The news channel
@@ -152,16 +152,16 @@ export default function NewsList() {
               ))}
             </div>
           </div>
-          {/* Broadcast texture (desktop only) */}
+          {/* Broadcast texture (desktop only, fixed height so it never stretches the hero) */}
           <div
             aria-hidden="true"
-            className="hidden flex-col items-end gap-6 self-end pb-2 lg:flex"
+            className="hidden flex-col items-end justify-center gap-4 lg:flex"
           >
-            {[...CATEGORY_ORDER, ...CATEGORY_ORDER].map((cat, i) => (
+            {CATEGORY_ORDER.map((cat) => (
               <CategoryMarks
-                key={`${cat}-${i}`}
+                key={cat}
                 name={cat}
-                size={64}
+                size={56}
                 className="opacity-10"
               />
             ))}

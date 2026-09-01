@@ -143,11 +143,11 @@ export default function HomePage() {
             title="Who HDR Keel is for"
             heading="h2"
           >
-            <p>
+            <p className="body-copy mt-6 flex-1 text-base leading-relaxed text-muted">
               The eligibility boundary, the exclusion list and the questions
               firms most often ask, answered directly.
             </p>
-            <p className="mt-6">
+            <p className="mt-auto pt-6">
               <Button href="/for-solicitors" variant="secondary">
                 Read who it is for
               </Button>
@@ -158,11 +158,11 @@ export default function HomePage() {
             title="How it works"
             heading="h2"
           >
-            <p>
+            <p className="body-copy mt-6 flex-1 text-base leading-relaxed text-muted">
               From the first call to the retainer, the Article 28 data
               agreement, conduct and the first month of work.
             </p>
-            <p className="mt-6">
+            <p className="mt-auto pt-6">
               <Button href="/how-it-works" variant="secondary">
                 See how it works
               </Button>

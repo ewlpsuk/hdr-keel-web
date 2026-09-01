@@ -45,7 +45,9 @@ export default function Card({
 
   if (image && split) {
     return (
-      <article className={`grid md:grid-cols-[minmax(12rem,18rem)_1fr] ${frame}`}>
+      <article
+        className={`grid h-full min-h-0 md:grid-cols-[minmax(12rem,18rem)_1fr] ${frame}`}
+      >
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image.src}
@@ -62,14 +64,14 @@ export default function Card({
 
   if (image) {
     return (
-      <article className={frame}>
+      <article className={`flex h-full flex-col ${frame}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
           src={image.src}
           alt={image.alt}
           className="h-44 w-full object-cover"
         />
-        <div className="p-6">
+        <div className="flex flex-1 flex-col p-6">
           {headingBlock}
           <div className="text-base leading-relaxed text-muted">{children}</div>
         </div>
@@ -78,10 +80,12 @@ export default function Card({
   }
 
   return (
-    <article className={`${frame} p-6`}>
+    <article className={`flex h-full flex-col ${frame} p-6`}>
       {icon ? <div className="mb-4 text-accent">{icon}</div> : null}
       {headingBlock}
-      <div className="text-base leading-relaxed text-muted">{children}</div>
+      <div className="flex flex-1 flex-col text-base leading-relaxed text-muted">
+        {children}
+      </div>
     </article>
   );
 }

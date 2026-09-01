@@ -22,6 +22,7 @@ export const navItems = [
   { href: "/", label: "Home" },
   { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
+  { href: "/news", label: "News" },
   { href: "/pricing", label: "Pricing" },
   { href: "/hdr-compass", label: "HDR Compass" },
   { href: "/contact", label: "Contact" },

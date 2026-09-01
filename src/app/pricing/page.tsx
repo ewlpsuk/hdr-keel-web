@@ -78,8 +78,8 @@ export default function PricingPage() {
                   per month
                 </span>
               </p>
-              <p className="mt-3 text-base">{tier.note}</p>
-              <p className="mt-6">
+              <p className="mb-4 flex flex-1 items-end text-base">{tier.note}</p>
+              <p className="mt-auto pt-4">
                 <Button href={BOOKING_URL} variant="primary">
                   Book a call
                 </Button>
