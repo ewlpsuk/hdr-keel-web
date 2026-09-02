@@ -2,28 +2,36 @@
   "updated": "2026-09-02",
   "items": [
     {
-      "title": "Awaab's Law Phase 2: Moving beyond damp and mould",
-      "source": "NEC Software Solutions (NEC Housing)",
-      "url": "https://www.necsws.com/article/housing/awaabs-law-phase-2-moving-beyond-damp-and-mould",
+      "title": "One in four young people use AI to help with their legal needs, Justice research finds",
+      "source": "Artificial Lawyer",
+      "url": "https://www.artificiallawyer.com/2026/09/01/1-4-of-young-people-use-ai-for-their-legal-needs/",
+      "category": "Legal tech",
+      "date": "01/09/2026",
+      "summary": "As reported by Artificial Lawyer, research by the legal charity Justice and the Administrative Fairness Lab found that just over a quarter of 18 to 24 year olds used AI when facing a legal problem, against around 10% of those aged 55 to 64. Many turned to AI on problems largely outside legal aid, including housing, employment and debt, raising accuracy concerns about unregulated chatbot advice."
+    },
+    {
+      "title": "Pennycook praises Supreme Court judgment on Right to Manage",
+      "source": "Inside Housing",
+      "url": "https://www.insidehousing.co.uk/news/pennycook-praises-supreme-court-judgment-on-right-to-manage-98545",
       "category": "Housing law",
       "date": "01/09/2026",
-      "summary": "As reported by NEC Software Solutions, Phase 2 of Awaab's Law takes effect on 30 November 2026 and extends significant-hazard duties beyond damp and mould to excess cold and heat, falls, structural collapse, fire and explosions, electrical safety and domestic hygiene, with greater emphasis on hazard triage and record keeping."
+      "summary": "As reported by Inside Housing, the Supreme Court has handed down a Right to Manage ruling that housing minister Matthew Pennycook has praised, and which lawyers believe will make it much harder for landlords to object to such claims. The decision affects how and when leaseholders of a qualifying building can take over its management from their landlord."
     },
     {
-      "title": "London Assembly calls for mayoral plan to reduce heat-related deaths in social homes",
-      "source": "Housing Today",
-      "url": "https://www.housingtoday.co.uk/news/london-assembly-calls-for-mayoral-plan-to-reduce-heat-related-deaths-in-social-homes/5143844.article",
-      "category": "Housing law",
-      "date": "28/08/2026",
-      "summary": "As reported by Housing Today, the London Assembly's planning and regeneration committee has called on the mayor to publish a roadmap for reducing heat-related deaths in social homes, including retrofitting shutters, shading and improved ventilation. Research estimates that 75% of London's social homes are at high risk of overheating, a hazard that comes into scope under Phase 2 of Awaab's Law."
+      "title": "High Court ruling on council housing duty will 'influence homelessness decision-making for years to come'",
+      "source": "Inside Housing",
+      "url": "https://www.insidehousing.co.uk/news/high-court-ruling-on-council-housing-duty-will-influence-homelessness-decision-making-for-years-to-come-98555",
+      "category": "Case law",
+      "date": "01/09/2026",
+      "summary": "As reported by Inside Housing, the High Court has ruled that a local authority's main housing duty does not automatically end once it offers private rented accommodation, a judgment welcomed by the Waltham Forest council involved. Commentators expect the ruling to influence homelessness decision-making for years. It is relevant to solicitors advising applicants in such cases."
     },
     {
-      "title": "Google, Weil + Gemini Enterprise for Legal",
-      "source": "Artificial Lawyer",
-      "url": "https://www.artificiallawyer.com/2026/08/27/google-weil-gemini-enterprise-for-legal/",
-      "category": "Legal tech",
-      "date": "27/08/2026",
-      "summary": "As reported by Artificial Lawyer, US firm Weil contributed to the development of Google's Gemini Enterprise for Legal and has built internal tools on it, including BenchMark for analysing judges' records. The interview with Weil's Chief AI and Innovation Officer discusses a multi-model strategy where lawyers can keep working in Word while AI work happens on Google's infrastructure."
+      "title": "New statutory temporary accommodation duty comes into force",
+      "source": "Inside Housing",
+      "url": "https://www.insidehousing.co.uk/news/new-statutory-temporary-accommodation-duty-comes-into-force-98548",
+      "category": "Regulation",
+      "date": "01/09/2026",
+      "summary": "As reported by Inside Housing, a new statutory duty came into force on 1 September 2026 requiring local authorities to notify education settings, GP practices and health visiting teams when a child is placed into temporary accommodation. The measure alerts the support services a child needs to their placement. Councils and advisers working with homeless families are affected."
     },
     {
       "title": "Consumer upgrades for two housing associations",
@@ -40,14 +48,6 @@
       "category": "Firm practice",
       "date": "26/08/2026",
       "summary": "Following the death of housing lawyer Giles Peaker, Justin Bates KC appeals for volunteers to help continue his Nearly Legal blog, aiming to relaunch by October, as reported by the Law Society Gazette."
-    },
-    {
-      "title": "RSH adds Rentplus Homes Limited to gradings under review list",
-      "source": "GOV.UK (Regulator of Social Housing)",
-      "url": "https://www.gov.uk/government/news/rsh-adds-rentplus-homes-limited-to-gradings-under-review-list",
-      "category": "Regulation",
-      "date": "18/08/2026",
-      "summary": "As reported by GOV.UK, the Regulator of Social Housing placed Rentplus Homes Limited on its gradings under review list on 18 August 2026 while investigating matters that may indicate serious failings in delivering the outcomes of the Governance and Financial Viability Standard. The Milton Keynes based landlord has fewer than 1,000 social housing units and does not therefore hold grades."
     },
     {
       "title": "Misuse of AI - Warning notice",
@@ -87,7 +87,7 @@
       "url": "https://www.swinburnemaddison.co.uk/insights/article/superior-landlord-liability-damp-and-mould-claims-and-fitness-for-human-habitation/",
       "category": "Case law",
       "date": "15/07/2026",
-      "summary": "As reported by Swinburne Maddison, a County Court judgment in Kemp v Henderson Property Management Solutions Ltd, on 15 July 2026, awarded more than £39,000 against the immediate landlord and over £10,000 against the superior landlord for damp and mould and unfitness for human habitation. The case note highlights that a claim can succeed without expert surveyor evidence where strong documentary evidence exists."
+      "summary": "As reported by Swinburne Maddison, a County Court judgment in Kemp v Henderson Property Management Solutions Ltd, on 15 July 2026, awarded more than £39,000 against the immediate landlord and over £10,000 against the superior landlord for damp and mould and unfitness for human habitation. The note highlights that a claim can succeed on strong documentary evidence without expert surveyor evidence."
     },
     {
       "title": "Joseph Harvey & Anor v Polly Louise Heaver & Anor",
