@@ -70,12 +70,6 @@ export default function AiImplementationPage() {
               is real rather than theoretical.
             </p>
           </Card>
-          <Card title="Team training">
-            <p>
-              Fee earners are trained to use the tools with the human sign-off
-              intact.
-            </p>
-          </Card>
           <Card title="Ongoing consultation">
             <p>
               Advice on where AI continues to remove fee-earner time on housing
@@ -83,16 +77,26 @@ export default function AiImplementationPage() {
             </p>
           </Card>
         </div>
+        <p className="mt-8 text-base leading-relaxed text-muted">
+          Team training is a separate service. When the tools are in place,
+          fee earners can learn to use them well and within the SRA&apos;s
+          expectations through the AI training days on the training page.{" "}
+          <a href="/services/training" className="text-accent hover:underline">
+            See AI training
+          </a>
+          .
+        </p>
       </section>
 
       <section className="bg-surface px-6 py-16">
         <div className="mx-auto max-w-5xl">
-          <SectionHeading kicker="Accountability" title="Shaine, not AI, is accountable">
+          <SectionHeading kicker="Accountability" title="Shaine is accountable for the implementation">
             <p>
-              Shaine, not AI, is accountable for the work. Any AI assistance
-              produces drafts that Shaine reviews and the firm signs off. AI is
-              a tool Shaine implements and trains on, not a replacement for the
-              firm&apos;s conduct.
+              Shaine is accountable for the implementation and the tools he
+              configures. Every output is delivered for the firm&apos;s review
+              and sign-off. AI is a tool Shaine sets up and supports, not a
+              replacement for the firm&apos;s conduct, its decisions, or its
+              duty to its client.
             </p>
             <p className="mt-4">
               Georgie handles the backend and administrative side of the work.
@@ -117,7 +121,7 @@ export default function AiImplementationPage() {
           <ol className="body-copy mt-6 list-decimal space-y-2 pl-5 text-base leading-relaxed text-muted">
             <li>A call to scope the workflow and the tools.</li>
             <li>Shaine assesses and sets up the implementation.</li>
-            <li>Fee earners are trained and the tools are tested on the firm&apos;s files.</li>
+            <li>The tools are tested on the firm&apos;s files and handed over for the firm&apos;s own sign-off.</li>
             <li>The firm retains conduct and signs off every output.</li>
           </ol>
           <p className="mt-8">

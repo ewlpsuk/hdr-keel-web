@@ -6,6 +6,7 @@ import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
 import { BOOKING_URL, pageMetadata } from "@/lib/site";
 import { TRAINING_LEVELS } from "@/lib/training-schedule";
+import { AI_TRAINING_LEVELS } from "@/lib/ai-training-schedule";
 
 export const metadata: Metadata = pageMetadata({
   title: "Housing Disrepair and AI Training",
@@ -74,6 +75,33 @@ export default function TrainingPage() {
         </SectionHeading>
         <div className="grid gap-6 md:grid-cols-3">
           {TRAINING_LEVELS.map((t) => (
+            <Card key={t.level} kicker={t.days} title={t.level}>
+              <p className="text-muted">{t.overview}</p>
+              <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-muted">
+                {t.items.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ol>
+              <p className="mt-6 border-t border-white/10 pt-4 text-sm text-text">
+                <span className="font-semibold text-accent">Outcome: </span>
+                {t.outcome}
+              </p>
+            </Card>
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-5xl px-6 py-16">
+        <SectionHeading kicker="AI for legal work" title="How a full week of AI training runs">
+          <p>
+            The same shape as the housing disrepair block, for the firm that
+            wants its fee earners to use AI well and stay within the
+            SRA&apos;s expectations. Book one level for a day, or run the arc
+            over a full week.
+          </p>
+        </SectionHeading>
+        <div className="grid gap-6 md:grid-cols-3">
+          {AI_TRAINING_LEVELS.map((t) => (
             <Card key={t.level} kicker={t.days} title={t.level}>
               <p className="text-muted">{t.overview}</p>
               <ol className="mt-4 list-decimal space-y-2 pl-5 text-sm leading-relaxed text-muted">
