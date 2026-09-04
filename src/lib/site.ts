@@ -1,9 +1,17 @@
 export const site = {
   name: "HDR Keel",
   description:
-    "Shaine Stead's housing disrepair consultancy for solicitors: case support, training and AI implementation.",
+    "Housing disrepair consultancy for solicitors: case support, training and AI implementation, under the instructing firm's conduct.",
   url: "https://hdrkeel.co.uk",
 };
+
+/**
+ * Public pricing lock (04/09/2026): there is no public rate card.
+ * Do not publish monthly retainer tiers, indicative Home prices, or a
+ * /pricing rate card. /pricing may exist as a noindex stub with no figures.
+ * Conversion is the booking slot and hello@hdrkeel.co.uk. The 31/08
+ * onboarding four-tier lock is superseded.
+ */
 
 /**
  * Calendar booking link for "Book a call" CTAs. Google Calendar appointment
@@ -18,14 +26,24 @@ export const BOOKING_URL =
 export const PRODUCT_URL =
   process.env.NEXT_PUBLIC_PRODUCT_URL || "https://hdrcompass.co.uk";
 
+export const CONTACT_EMAIL = "hello@hdrkeel.co.uk";
+export const PRIVACY_EMAIL = "privacy@hdrkeel.co.uk";
+
+export const CONDUCT_NOTICE =
+  "The instructing firm retains conduct of the matter and all responsibility to its client and to the regulator. HDR Keel works under the firm's instruction and supervision. All advice, correspondence and decisions are the firm's to make and sign off. Nothing on this site constitutes legal advice to any firm's client.";
+
 export const navItems = [
-  { href: "/", label: "Home" },
-  { href: "/about", label: "About" },
   { href: "/services", label: "Services" },
-  { href: "/news", label: "News" },
-  { href: "/pricing", label: "Pricing" },
-  { href: "/hdr-compass", label: "HDR Compass" },
+  { href: "/how-it-works", label: "How it works" },
+  { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
+] as const;
+
+export const footerNavItems = [
+  ...navItems,
+  { href: "/for-solicitors", label: "Who it is for" },
+  { href: "/news", label: "News" },
+  { href: "/hdr-compass", label: "HDR Compass" },
 ] as const;
 
 export function pageUrl(path: string) {

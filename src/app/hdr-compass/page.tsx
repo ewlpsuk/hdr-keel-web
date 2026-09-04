@@ -37,12 +37,13 @@ export default function HdrCompassPage() {
       <PageHero
         kicker="HDR Compass"
         title="The self-serve software option for housing disrepair firms"
+        visualOnMobile
         visual={
           <BrandVisual
-            src="/images/compass-motif.png"
-            alt=""
-            decorative
-            className="h-full min-h-[22rem]"
+            src="/images/workflow-desk.jpg"
+            alt="A fee-earner's desk with organised housing disrepair papers"
+            className="h-full min-h-[18rem]"
+            imgClassName="aspect-[4/3] lg:aspect-auto lg:h-full"
           />
         }
       >
@@ -61,9 +62,9 @@ export default function HdrCompassPage() {
           >
             <p>
               HDR Compass is a case-review tool for housing disrepair and
-              conditions claims. It is one route. HDR Keel (Shaine&apos;s
-              consultancy) is also available for firms that prefer outsourced
-              case support, training or AI implementation.
+              conditions claims. It is one route. HDR Keel is also available
+              for firms that prefer outsourced case support, training or AI
+              implementation.
             </p>
           </SectionHeading>
         </div>
@@ -72,8 +73,8 @@ export default function HdrCompassPage() {
       <section className="mx-auto max-w-6xl px-6 py-16">
         <SectionHeading kicker="Product" title="What HDR Compass does">
           <p>
-            Known design facts only. The tool drafts. The firm&apos;s own fee
-            earner confirms before anything is exported.
+            The tool drafts. The firm&apos;s own fee earner confirms before
+            anything is exported.
           </p>
         </SectionHeading>
         <div className="grid gap-6 md:grid-cols-2">

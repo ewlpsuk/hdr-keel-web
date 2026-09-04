@@ -1,119 +1,194 @@
 import type { Metadata } from "next";
+import BrandVisual from "@/components/BrandVisual";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata } from "@/lib/site";
+import { LIFECYCLE_PHASES, REFERRED_BACK } from "@/lib/case-lifecycle";
+import { BOOKING_URL, CONDUCT_NOTICE, pageMetadata } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "Outsourced Housing Disrepair Case Support",
   path: "/services/case-support",
   description:
-    "A senior housing disrepair fee earner for firms short on capacity. Intake, disclosure, chronology, quantum, reporting and offers work, on a monthly retainer, under the firm's instruction.",
+    "Housing disrepair case support from vetting through to post-judgment. The 26-stage file, under the instructing firm's conduct.",
 });
-
-const CONDUCT =
-  "The instructing firm retains conduct of the matter and all responsibility to its client and to the regulator. HDR Keel works under the firm's instruction and supervision. All advice, correspondence and decisions are the firm's to make and sign off. Intake, disclosure, chronology, quantum, reporting and offers work is undertaken for the instructed firm and delivered for its sign-off. Nothing on this site constitutes legal advice to any firm's client.";
-
-const JURISDICTION =
-  "The applicable law depends on the jurisdiction of the client's case (RHWA 2016 in Wales; LTA 1985 and Awaab's Law in England).";
 
 export default function CaseSupportPage() {
   return (
     <>
       <PageHero
         kicker="Case support"
-        title="Outsourced housing disrepair case support for firms short on capacity."
+        title="The housing disrepair file, from vetting through to post-judgment"
         primaryHref={BOOKING_URL}
         primaryLabel="Book a call"
-        secondaryHref="/pricing"
-        secondaryLabel="See pricing"
+        secondaryHref="/how-it-works"
+        secondaryLabel="How it works"
+        visualOnMobile
+        visual={
+          <BrandVisual
+            src="/images/case-files.jpg"
+            alt="Case files and a chronology on a fee-earner's desk"
+            className="h-full min-h-[18rem]"
+            imgClassName="aspect-[4/3] lg:aspect-auto lg:h-full"
+          />
+        }
       >
         <p>
-          When a firm is short-staffed, on annual leave, or simply overloaded,
-          the case work still has to run. Shaine steps in to take it off the
-          desk. He is a housing disrepair fee earner who has personally handled
-          housing disrepair claim work since 2013.
+          When a firm is short-staffed, on leave, or simply overloaded, the
+          case work still has to run. We work the file under instruction, for
+          the whole lifecycle or the stage that is blocking the desk, and
+          deliver every piece for the firm&apos;s sign-off.
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl space-y-10 px-6 py-16">
-        <SectionHeading kicker="What you get" title="Fee-earner work, on a monthly retainer">
+      <section className="bg-accent-soft px-6 py-12">
+        <div className="mx-auto max-w-5xl">
+          <p className="max-w-3xl text-base leading-relaxed text-text sm:text-lg">
+            Housing disrepair files in this practice run on a 26-stage
+            lifecycle: pre-action, issue, case management, evidence, trial
+            preparation, then settlement and enforcement. Every deliverable is
+            for the firm&apos;s sign-off. The firm stays on the record.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-6 py-16">
+        <SectionHeading
+          kicker="The 26-stage file"
+          title="What we run, in the order the work actually lands"
+        >
           <p>
-            Each item below is a fee-earner task Shaine already runs on live
-            matters, delivered under the firm&apos;s instruction and capped at
-            no more than 10 hours per week per client so he never
-            over-commits.
+            Instruct us for the whole matter, for a phase, or for overflow on
+            the stages that are blocking the team. Administrative support on
+            the same files is included where that is what the matter needs.
           </p>
         </SectionHeading>
-        <div className="grid gap-6 md:grid-cols-3">
-          <Card title="Intake triage">
-            <p>
-              Go/no-go triage on new files, so a firm knows early which matters
-              are worth the time and cost.
-            </p>
-          </Card>
-          <Card title="Disclosure reconciliation">
-            <p>
-              Reconciling the disclosure against the pleaded defects, so gaps
-              and admissions surface while the file is still the firm&apos;s to
-              fix.
-            </p>
-          </Card>
-          <Card title="Chronology and quantum">
-            <p>
-              Building the chronology and the quantum, from the rent record and
-              the repair history to a defensible figure.
-            </p>
-          </Card>
-          <Card title="Report drafting">
-            <p>
-              Drafting the reports and the letters of claim for the
-              firm&apos;s review, sign-off and issue.
-            </p>
-          </Card>
-          <Card title="Offers strategy">
-            <p>
-              Working the offers position, so the firm walks into negotiation
-              with the numbers and the Part 36 logic in hand.
-            </p>
-          </Card>
-          <Card title="Surveyor or expert instruction support">
-            <p>
-              Supporting the instruction of surveyors and experts under the
-              pre-action protocol, so the evidence is in place.
-            </p>
-          </Card>
+
+        <div className="space-y-20">
+          {LIFECYCLE_PHASES.map((phase) => {
+            const kickerClass =
+              phase.tone === "copper"
+                ? "bg-accent-2 text-on-accent"
+                : "bg-accent text-on-accent";
+            const badgeClass =
+              phase.tone === "copper"
+                ? "bg-accent-2 text-on-accent"
+                : "bg-accent text-on-accent";
+            const ruleClass =
+              phase.tone === "copper" ? "border-accent-2/30" : "border-accent/20";
+            const cardEdge =
+              phase.tone === "copper"
+                ? "border-l-accent-2"
+                : "border-l-accent";
+
+            return (
+              <div key={phase.range}>
+                <div
+                  className={`mb-6 flex flex-wrap items-end justify-between gap-4 border-b pb-4 ${ruleClass}`}
+                >
+                  <div>
+                    <p
+                      className={`inline-block rounded-sm px-2 py-1 text-xs font-semibold uppercase tracking-[0.16em] ${kickerClass}`}
+                    >
+                      {phase.kicker}
+                    </p>
+                    <h2 className="mt-3 font-display text-2xl font-semibold text-text sm:text-3xl">
+                      {phase.title}
+                    </h2>
+                  </div>
+                </div>
+                <div
+                  className={`mb-6 ${
+                    phase.visual
+                      ? "grid items-start gap-6 lg:grid-cols-[minmax(0,1.4fr)_minmax(14rem,18rem)]"
+                      : ""
+                  }`}
+                >
+                  <p className="max-w-3xl text-base leading-relaxed text-muted">
+                    {phase.intro}
+                  </p>
+                  {phase.visual ? (
+                    <BrandVisual
+                      src={phase.visual.src}
+                      alt={phase.visual.alt}
+                      className="aspect-[4/3]"
+                      imgClassName="aspect-[4/3]"
+                    />
+                  ) : null}
+                </div>
+                <ol className="grid gap-4 sm:grid-cols-2">
+                  {phase.stages.map((stage) => (
+                    <li
+                      key={stage.n}
+                      className={`flex gap-4 rounded-xl border border-line border-l-[3px] bg-surface p-5 ${cardEdge}`}
+                    >
+                      <span
+                        className={`flex h-9 w-9 shrink-0 items-center justify-center rounded-md font-display text-sm font-semibold ${badgeClass}`}
+                      >
+                        {stage.n}
+                      </span>
+                      <div>
+                        <h3 className="font-display text-lg font-semibold text-text">
+                          {stage.title}
+                        </h3>
+                        <p className="mt-1 text-base leading-relaxed text-muted">
+                          {stage.text}
+                        </p>
+                      </div>
+                    </li>
+                  ))}
+                </ol>
+              </div>
+            );
+          })}
         </div>
       </section>
 
       <section className="bg-surface px-6 py-16">
         <div className="mx-auto max-w-5xl">
-          <SectionHeading kicker="How it works" title="A clear, predictable process">
-            <ol className="body-copy mt-6 list-decimal space-y-2 pl-5 text-base leading-relaxed text-muted">
-              <li>Talk it through with Shaine on a call.</li>
-              <li>You agree the scope, hours and monthly retainer.</li>
-              <li>Shaine works under your instruction and delivers for your sign-off.</li>
-              <li>Unused hours roll over into the next month within the same quarter.</li>
-              <li>The firm retains conduct and makes the decisions throughout.</li>
+          <SectionHeading kicker="How it is scoped" title="The whole file, a phase, or the blockage">
+            <ol className="mt-6 list-decimal space-y-2 pl-5 text-base leading-relaxed text-muted">
+              <li>Talk it through with the practice on a call.</li>
+              <li>
+                We agree whether this is a whole-file engagement, a named
+                phase, or overflow, and the hours and fee to that work.
+              </li>
+              <li>
+                The team works under your instruction and delivers for your
+                sign-off.
+              </li>
+              <li>
+                The firm retains conduct and makes the decisions throughout.
+              </li>
             </ol>
           </SectionHeading>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
-            <Card title="What is in scope">
+            <Card title="What is in scope" featured>
               <p>
-                Intake go/no-go triage, letter of claim preparation, disclosure
-                reconciliation, chronology, quantum, surveyor or expert
-                instruction support, report drafting, and offers strategy.
+                The 26-stage housing disrepair lifecycle above, including
+                preparing the issue pack, default judgment, trial bundle,
+                Part 36 and enforcement papers for the firm to sign off and
+                take. Administrative support on those files where that is what
+                the matter needs.
               </p>
             </Card>
-            <Card title="What is out of scope">
-              <p>
-                Advocacy, court attendance, issuing, and anything the firm must
-                hold itself. If a matter passes beyond these boundaries, or
-                outside England and Wales housing disrepair plus associated
-                personal injury arising from it, it is referred back to the
-                instructing firm.
+            <Card title="What stays with the firm">
+              <p className="mb-4">
+                The instructing firm remains the solicitor on the record. We
+                do not appear as advocate, we do not attend court and we do
+                not issue:
+              </p>
+              <ul className="list-disc space-y-2 pl-5">
+                {REFERRED_BACK.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+              <p className="mt-4">
+                If a matter passes outside England and Wales housing disrepair
+                plus associated personal injury arising from it, it is referred
+                back.
               </p>
             </Card>
           </div>
@@ -123,10 +198,9 @@ export default function CaseSupportPage() {
       <section className="mx-auto max-w-5xl px-6 py-16">
         <SectionHeading kicker="What happens next" title="What to bring to the first call">
           <p>
-            The jurisdiction of the caseload, the matter count, the capacity gap
-            (in-house cover or a defined project), and whether the firm needs
-            ongoing support or a time-boxed piece of work. From that, Shaine
-            recommends the retainer tier or a day rate.
+            The jurisdiction of the caseload, the matter count, where the file
+            sits in the lifecycle, and whether the firm needs the whole matter
+            run or a defined stage. From that, we recommend how to staff it.
           </p>
           <p className="mt-4">
             <Button href={BOOKING_URL} variant="primary">
@@ -134,10 +208,12 @@ export default function CaseSupportPage() {
             </Button>
           </p>
         </SectionHeading>
-        <blockquote className="mt-12 rounded-xl border-l-[3px] border-accent border-y border-r border-white/10 bg-surface p-6 text-base leading-relaxed text-muted sm:p-8">
-          <p>{CONDUCT}</p>
-          <p className="mt-4">{JURISDICTION}</p>
+        <blockquote className="mt-12 rounded-xl border border-line border-l-[3px] border-l-accent-2 bg-accent-soft p-6 text-base leading-relaxed text-muted sm:p-8">
+          <p>{CONDUCT_NOTICE}</p>
           <p className="mt-4">
+            The applicable law depends on the jurisdiction of the
+            client&apos;s case (the Renting Homes (Wales) Act 2016 in Wales;
+            the Landlord and Tenant Act 1985 and Awaab&apos;s Law in England).
             HDR Keel assists with personal injury only where it arises from
             housing disrepair and only under the instructed firm. HDR Keel
             works as the firm&apos;s processor under a written
@@ -146,8 +222,11 @@ export default function CaseSupportPage() {
         </blockquote>
       </section>
 
-      <CtaBand title="Need capacity on a disrepair file?">
-        <p>Talk it through with Shaine and agree the scope, hours and retainer.</p>
+      <CtaBand title="Need a disrepair file run?">
+        <p>
+          From a first vetting through to post-judgment, or the stage that is
+          stuck. Talk it through with the practice.
+        </p>
       </CtaBand>
     </>
   );

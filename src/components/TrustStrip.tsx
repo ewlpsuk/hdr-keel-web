@@ -1,18 +1,18 @@
 const items = [
   "Solicitors only",
-  "Firm keeps conduct",
-  "A fee earner who has run the cases",
-  "Training and AI support",
+  "Your firm keeps conduct",
+  "A specialist team",
+  "England and Wales",
 ] as const;
 
 export default function TrustStrip() {
   return (
-    <div className="border-t-[3px] border-accent bg-surface px-6 py-8">
-      <ul className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-5 gap-y-3 font-mono text-xs uppercase tracking-[0.16em] text-muted sm:text-sm">
+    <div className="bg-accent px-6 py-6">
+      <ul className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-6 gap-y-3 text-xs font-semibold uppercase tracking-[0.14em] text-on-accent sm:text-sm">
         {items.map((item, index) => (
-          <li key={item} className="flex items-center gap-5">
+          <li key={item} className="flex items-center gap-6">
             {index > 0 ? (
-              <span aria-hidden="true" className="hidden text-accent sm:inline">
+              <span aria-hidden="true" className="hidden text-accent-2-soft sm:inline">
                 ·
               </span>
             ) : null}

@@ -1,64 +1,63 @@
 import Link from "next/link";
 import Logo from "@/components/Logo";
-import { navItems, PRODUCT_URL } from "@/lib/site";
+import { CONTACT_EMAIL, PRODUCT_URL, PRIVACY_EMAIL, footerNavItems } from "@/lib/site";
 
 export default function SiteFooter() {
   return (
-    <footer className="border-t border-white/10 bg-background">
-      <div className="mx-auto grid max-w-6xl gap-8 px-6 py-12 md:grid-cols-3">
+    <footer className="border-t border-line bg-surface">
+      <div className="mx-auto grid max-w-6xl gap-10 px-6 py-14 md:grid-cols-3">
         <div>
           <Logo size="footer" />
-          <p className="mt-4 text-base text-muted">
-            Shaine Stead&apos;s housing disrepair consultancy for solicitors
+          <p className="mt-4 max-w-xs text-base text-muted">
+            Housing disrepair consultancy for solicitor firms in England and
+            Wales.
           </p>
         </div>
         <nav aria-label="Footer" className="flex flex-col gap-2">
-          {navItems.map((item) => (
+          {footerNavItems.map((item) => (
             <Link
               key={item.href}
               href={item.href}
-              className="font-display text-base text-muted hover:text-accent"
+              className="text-base text-muted hover:text-accent"
             >
               {item.label}
             </Link>
           ))}
-          <Link
-            href="/for-solicitors"
-            className="font-display text-base text-muted hover:text-accent"
-          >
-            Who it is for
-          </Link>
-          <Link
-            href="/how-it-works"
-            className="font-display text-base text-muted hover:text-accent"
-          >
-            How it works
-          </Link>
         </nav>
         <div className="text-base text-muted">
-          <a
-            href={PRODUCT_URL}
-            className="text-accent-2 hover:text-accent"
-          >
-            HDR Compass product site
-          </a>
-          <p className="mt-4">HDR Keel is operated by Shaine Stead</p>
-          <p className="mt-2">
-            Controller contact:{" "}
+          <p>
+            Enquiries:{" "}
             <a
-              href="mailto:privacy@hdrkeel.co.uk"
-              className="text-accent-2 hover:text-accent"
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="text-accent hover:underline"
             >
-              privacy@hdrkeel.co.uk
+              {CONTACT_EMAIL}
             </a>
           </p>
           <p className="mt-2">
+            <a
+              href={PRODUCT_URL}
+              className="text-accent hover:underline"
+            >
+              HDR Compass product site
+            </a>
+          </p>
+          <p className="mt-6">
             HDR Keel is not a claims management company, not an SRA-regulated
             law firm and not a provider of legal advice to consumers.
           </p>
-          <p className="mt-2">© 2026 HDR Keel</p>
           <p className="mt-2">
-            <Link href="/privacy" className="text-accent-2 hover:text-accent">
+            Controller contact:{" "}
+            <a
+              href={`mailto:${PRIVACY_EMAIL}`}
+              className="text-accent hover:underline"
+            >
+              {PRIVACY_EMAIL}
+            </a>
+          </p>
+          <p className="mt-4">© {new Date().getFullYear()} HDR Keel</p>
+          <p className="mt-2">
+            <Link href="/privacy" className="text-accent hover:underline">
               Privacy notice
             </Link>
           </p>

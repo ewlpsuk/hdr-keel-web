@@ -30,11 +30,11 @@ and can be ignored or removed.
 
 ## Post-deploy verification
 
-1. All six routes return HTTP 200 with a trailing slash: `/`, `/about/`, `/services/`,
-   `/pricing/`, `/hdr-compass/`, `/contact/`.
-2. `/sitemap.xml` and `/robots.txt` return 200 and point at `https://hdrkeel.co.uk`.
-3. The booking CTA resolves to the live HDR Keel calendar slot.
-4. Lighthouse home-page score is healthy.
+1. All primary routes return HTTP 200 with a trailing slash: `/`, `/about/`, `/services/`, `/how-it-works/`, `/contact/`.
+2. `/pricing/` is no longer in the primary nav. It should return a fees page with no published rates (or 301 to `/contact/` if a host-level redirect is added later).
+3. `/sitemap.xml` and `/robots.txt` return 200 and point at `https://hdrkeel.co.uk`.
+4. The booking CTA resolves to the live HDR Keel calendar slot and opens in a new tab.
+5. Lighthouse home-page score is healthy.
 
 ## Not checked in
 

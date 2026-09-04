@@ -1,16 +1,17 @@
 import type { Metadata } from "next";
+import BrandVisual from "@/components/BrandVisual";
 import Button from "@/components/Button";
 import Card from "@/components/Card";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata } from "@/lib/site";
+import { pageMetadata } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "Services",
   path: "/services",
   description:
-    "Outsourced housing disrepair case support, staff training, and AI implementation for solicitors. The firm always keeps conduct of its cases.",
+    "Outsourced housing disrepair case support from vetting to post-judgment, staff training, and AI implementation for solicitors.",
 });
 
 export default function ServicesPage() {
@@ -18,97 +19,94 @@ export default function ServicesPage() {
     <>
       <PageHero
         kicker="Services"
-        title="Case support, training and AI implementation for solicitors"
+        title="Case support, training and AI implementation"
+        visualOnMobile
+        visual={
+          <BrandVisual
+            src="/images/issue-pack.jpg"
+            alt="An issue pack prepared on a desk"
+            className="h-full min-h-[18rem]"
+            imgClassName="aspect-[4/3] lg:aspect-auto lg:h-full"
+          />
+        }
       >
         <p>
-          HDR Keel helps solicitors with outsourced housing disrepair case
-          work, staff training, and AI implementation. The firm always keeps
-          conduct of its cases.
-        </p>
-        <p className="mt-4">
-          For the latest housing-disrepair case law, regulation and legal
-          technology, see our{" "}
-          <a
-            href="/news"
-            className="text-accent underline hover:text-text"
-          >
-            housing disrepair news and legal updates
-          </a>
-          .
+          HDR Keel helps solicitor firms with outsourced housing disrepair
+          case work: we work the file under instruction, plus staff training
+          and AI implementation. The firm always keeps conduct of its cases.
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl space-y-10 px-6 py-16">
+      <section className="mx-auto max-w-6xl space-y-10 px-6 py-16">
         <div className="grid gap-6 md:grid-cols-3">
           <Card
             kicker="Case support"
-            title="Outsourced case support"
+            title="The file, under instruction"
             heading="h2"
             image={{
-              src: "/images/service-case.png",
-              alt: "Geometric case-file mark for outsourced case support",
+              src: "/images/case-files.jpg",
+              alt: "Case files and a chronology on a fee-earner's desk",
             }}
           >
             <p>
-              Shaine steps in when a firm is short-staffed, on annual leave, or
-              simply overloaded. Intake triage, disclosure reconciliation,
-              chronology, quantum, report drafting and offers strategy, on a
-              monthly retainer.
+              The 26-stage housing disrepair lifecycle, from vetting a new
+              claim through issue, evidence, trial preparation, Part 36 and
+              post-judgment. Or the stage that is blocking the desk.
             </p>
             <p className="mt-auto pt-6">
               <Button href="/services/case-support" variant="secondary">
-                Learn more
+                Case support
               </Button>
             </p>
           </Card>
           <Card
             kicker="Training"
-            title="Training"
+            title="Housing disrepair and AI training"
             heading="h2"
             image={{
-              src: "/images/service-training.png",
-              alt: "Geometric board mark for training",
+              src: "/images/training-room.jpg",
+              alt: "A training table with packs and notebooks in a legal office",
             }}
           >
             <p>
-              Staff training on housing disrepair and on AI for legal work, from
-              new fee earners to experienced practitioners. A group session
-              counts as one booking.
+              Staff training on housing disrepair and on AI for legal work,
+              from new fee earners to experienced practitioners. A group
+              session counts as one booking.
             </p>
             <p className="mt-auto pt-6">
               <Button href="/services/training" variant="secondary">
-                Learn more
+                Training
               </Button>
             </p>
           </Card>
           <Card
             kicker="AI implementation"
-            title="AI implementation and efficiency consulting"
+            title="Embedding AI in the workflow"
             heading="h2"
             image={{
-              src: "/images/service-ai.png",
-              alt: "Geometric node mark for AI implementation",
+              src: "/images/workflow-desk.jpg",
+              alt: "A fee-earner's desk with a laptop and organised case papers",
             }}
           >
             <p>
-              Setting up and embedding AI tools in a firm&apos;s workflow so fee
-              earners work faster and more consistently, with the human sign-off
-              intact.
+              Setting up and embedding AI tools in a firm&apos;s workflow so
+              fee earners work faster and more consistently, with the human
+              sign-off intact.
             </p>
             <p className="mt-auto pt-6">
               <Button href="/services/ai-implementation" variant="secondary">
-                Learn more
+                AI implementation
               </Button>
             </p>
           </Card>
         </div>
       </section>
 
-      <section className="bg-surface px-6 py-16">
+      <section className="bg-accent-soft px-6 py-16">
         <div className="mx-auto max-w-5xl">
           <SectionHeading
             kicker="Self-serve"
-            title="HDR Compass is the option for firms that want to do it themselves"
+            title="HDR Compass, if the firm wants to do it themselves"
           >
             <p>
               If the firm wants to keep the work in-house, HDR Compass is the
@@ -122,7 +120,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <CtaBand title="Book a call" />
+      <CtaBand title="Talk through what the firm needs" />
     </>
   );
 }

@@ -1,22 +1,22 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono, Space_Grotesk } from "next/font/google";
+import { Source_Sans_3, Source_Serif_4 } from "next/font/google";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 import SkipLink from "@/components/SkipLink";
 import { pageMetadata } from "@/lib/site";
 import "./globals.css";
 
-const spaceGrotesk = Space_Grotesk({
+const sourceSans = Source_Sans_3({
   subsets: ["latin"],
-  weight: ["400", "500", "700"],
-  variable: "--font-space-grotesk",
+  weight: ["400", "500", "600", "700"],
+  variable: "--font-source-sans",
   display: "swap",
 });
 
-const jetbrainsMono = JetBrains_Mono({
+const sourceSerif = Source_Serif_4({
   subsets: ["latin"],
-  weight: ["400", "500"],
-  variable: "--font-jetbrains-mono",
+  weight: ["400", "600", "700"],
+  variable: "--font-source-serif",
   display: "swap",
 });
 
@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     title: "HDR Keel",
     path: "/",
     description:
-      "Shaine Stead's housing disrepair consultancy for solicitors: case support, training and AI implementation under the firm's instruction.",
+      "Housing disrepair consultancy for solicitors: case support, training and AI implementation, under the instructing firm's conduct.",
   }),
 };
 
@@ -36,7 +36,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en-GB" className={`${spaceGrotesk.variable} ${jetbrainsMono.variable}`}>
+    <html
+      lang="en-GB"
+      className={`${sourceSans.variable} ${sourceSerif.variable}`}
+    >
       <body className="flex min-h-screen flex-col antialiased">
         <SkipLink />
         <SiteHeader />

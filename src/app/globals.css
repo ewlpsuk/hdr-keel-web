@@ -1,14 +1,18 @@
 @import "tailwindcss";
 
 :root {
-  --background: #0a0e10;
-  --surface: #0e1419;
-  --accent: #ff8c00;
-  --accent-2: #00f2ff;
-  --text: #f4f7f8;
-  --muted: #b6c2cc;
-  --font-display: "Space Grotesk";
-  --font-mono: "JetBrains Mono";
+  --background: #f6f3ec;
+  --surface: #fffcf7;
+  --accent: #1f4f4a;
+  --accent-2: #9a3412;
+  --text: #1c1917;
+  --muted: #57534e;
+  --line: #e4ddd2;
+  --on-accent: #f6f3ec;
+  --accent-soft: #dce8e6;
+  --accent-2-soft: #f3e4d8;
+  --font-display: "Source Serif 4";
+  --font-body: "Source Sans 3";
 }
 
 @theme inline {
@@ -18,18 +22,12 @@
   --color-accent-2: var(--accent-2);
   --color-text: var(--text);
   --color-muted: var(--muted);
-  --font-display: var(--font-space-grotesk), "Space Grotesk", sans-serif;
-  --font-mono: var(--font-jetbrains-mono), "JetBrains Mono", monospace;
-  --animate-ticker: ticker 40s linear infinite;
-}
-
-@keyframes ticker {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(-33.333%);
-  }
+  --color-line: var(--line);
+  --color-on-accent: var(--on-accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-2-soft: var(--accent-2-soft);
+  --font-display: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+  --font-sans: var(--font-source-sans), "Source Sans 3", system-ui, sans-serif;
 }
 
 html {
@@ -41,20 +39,14 @@ body {
   min-height: 100vh;
   background: var(--background);
   color: var(--text);
-  font-family: var(--font-space-grotesk), var(--font-display), system-ui, sans-serif;
-  font-size: 1rem;
+  font-family: var(--font-source-sans), var(--font-body), system-ui, sans-serif;
+  font-size: 1.0625rem;
   line-height: 1.65;
 }
 
 :focus-visible {
-  outline: 2px solid var(--accent-2);
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
-}
-
-.body-copy {
-  text-align: justify;
-  hyphens: auto;
-  -webkit-hyphens: auto;
 }
 
 .skip-link {
@@ -63,7 +55,7 @@ body {
   top: -100%;
   z-index: 100;
   background: var(--accent);
-  color: #0a0e10;
+  color: var(--on-accent);
   padding: 0.5rem 1rem;
 }
 

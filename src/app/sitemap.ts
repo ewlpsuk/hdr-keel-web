@@ -3,39 +3,48 @@ import { navItems, site } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const LAST_MODIFIED = "2026-09-01";
+const LAST_MODIFIED = "2026-09-04";
 
-const servicePages = [
+const extraPages = [
+  "/",
+  "/news",
+  "/hdr-compass",
+  "/for-solicitors",
+  "/how-it-works",
   "/services/case-support",
   "/services/training",
   "/services/ai-implementation",
 ];
 
-const infoPages = ["/for-solicitors", "/how-it-works"];
-
 export default function sitemap(): MetadataRoute.Sitemap {
-  const nav = navItems.map((item) => ({
-    url: `${site.url}${item.href === "/" ? "/" : `${item.href}/`}`,
-    lastModified: LAST_MODIFIED,
-    changeFrequency: "monthly" as const,
-    priority: item.href === "/" ? 1 : 0.7,
-  }));
-  const services = servicePages.map((href) => ({
-    url: `${site.url}${href}/`,
-    lastModified: LAST_MODIFIED,
-    changeFrequency: "monthly" as const,
-    priority: 0.7,
-  }));
-  const info = infoPages.map((href) => ({
-    url: `${site.url}${href}/`,
-    lastModified: LAST_MODIFIED,
-    changeFrequency: "monthly" as const,
-    priority: 0.6,
-  }));
+  const homeAndNav = [
+    {
+      url: `${site.url}/`,
+      lastModified: LAST_MODIFIED,
+      changeFrequency: "monthly" as const,
+      priority: 1,
+    },
+    ...navItems.map((item) => ({
+      url: `${site.url}${item.href}/`,
+      lastModified: LAST_MODIFIED,
+      changeFrequency: "monthly" as const,
+      priority: 0.8,
+    })),
+  ];
+
+  const extra = extraPages
+    .filter((href) => href !== "/")
+    .filter((href) => !navItems.some((item) => item.href === href))
+    .map((href) => ({
+      url: `${site.url}${href}/`,
+      lastModified: LAST_MODIFIED,
+      changeFrequency: "monthly" as const,
+      priority: href.startsWith("/services/") ? 0.7 : 0.6,
+    }));
+
   return [
-    ...nav,
-    ...services,
-    ...info,
+    ...homeAndNav,
+    ...extra,
     {
       url: `${site.url}/privacy/`,
       lastModified: LAST_MODIFIED,

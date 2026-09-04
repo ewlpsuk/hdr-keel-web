@@ -34,7 +34,7 @@ export const TRAINING_LEVELS: TrainingLevel[] = [
       "Statutory framework in depth: RHWA 2016 in Wales, LTA 1985 and Awaab's Law in England, and when each bites.",
       "Disclosure under pressure: evidence reconciliation on difficult bundles, redirecting incomplete disclosure, and what the landlord's side typically misses.",
       "Reporting: drafting case reports an instructing principal can sign off, with the analysis that stands up to review.",
-      "The boundary line: knowing what a fee earner prepares and what must be handed back to the firm, including advocacy, court attendance and issuing, and anything the firm must hold itself, referring the matter back to the instructing firm where it passes beyond those boundaries.",
+      "The boundary line: knowing what a fee earner prepares and what must be handed back to the firm, including advocacy, court attendance, issuing, and anything the firm must hold as the solicitor on the record, referring the matter back to the instructing firm where it passes beyond those boundaries.",
     ],
   },
   {
@@ -49,7 +49,7 @@ export const TRAINING_LEVELS: TrainingLevel[] = [
       "Complex disclosure: the hardest bundles, partial records, missing years, disputed disrepair, and keeping the chronology usable.",
       "Jurisdiction edge cases: the interplay of statute and case law at the boundaries, and the authorities that shape a matter.",
       "Process and supervision: running the heavy caseload, delegating with AI tools as support, and keeping sign-off sharp at scale.",
-      "Live-file workshop: bring a live matter, work it through with Shaine, and leave with it in a stronger position.",
+      "Live-file workshop: bring a live matter, work it through with a senior practitioner, and leave with it in a stronger position.",
     ],
   },
 ];

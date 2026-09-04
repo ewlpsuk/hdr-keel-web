@@ -1,127 +1,44 @@
 import type { Metadata } from "next";
-import Button from "@/components/Button";
-import Card from "@/components/Card";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
-import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata } from "@/lib/site";
+import { BOOKING_URL, CONTACT_EMAIL, pageMetadata } from "@/lib/site";
 
-export const metadata: Metadata = pageMetadata({
-  title: "Pricing",
-  path: "/pricing",
-  description:
-    "Monthly case-support retainers from £700, plus training and AI consultancy at £700 per day or £2,800 for a five-day week.",
-});
-
-const tiers = [
-  {
-    name: "Lite",
-    hours: "10 hours per month",
-    price: "£700",
-    note: "For a firm with a light or occasional caseload that needs cover for leave, a spike or a single complex file.",
-  },
-  {
-    name: "Standard",
-    hours: "20 hours per month",
-    price: "£1,330",
-    note: "For a firm running a steady disrepair caseload that wants a regular, part-time fee-earner resource each month.",
-    featured: true,
-  },
-  {
-    name: "Pro",
-    hours: "30 hours per month",
-    price: "£1,890",
-    note: "For a firm with a heavier or more complex caseload where most of the fee-earner work is outsourced.",
-  },
-  {
-    name: "Max",
-    hours: "40 hours per month",
-    price: "£2,380",
-    note: "For a firm that wants near-continuous cover across a large or full caseload.",
-  },
-];
+export const metadata: Metadata = {
+  ...pageMetadata({
+    title: "Fees",
+    path: "/pricing",
+    description:
+      "HDR Keel agrees fees to the work. There is no published rate card. Book a call or email the practice.",
+  }),
+  robots: { index: false, follow: true },
+};
 
 export default function PricingPage() {
   return (
     <>
       <PageHero
-        kicker="Pricing"
-        title="A monthly case-support retainer, plus training and AI consultancy"
+        kicker="Fees"
+        title="We agree the fee to the work"
+        primaryHref={BOOKING_URL}
+        primaryLabel="Book a call"
       >
         <p>
-          HDR Keel offers a monthly retainer for outsourced housing disrepair
-          case support, and day rates for training and AI consultancy. The firm
-          keeps conduct of its cases.
+          There is no published rate card. Some engagements are fee-earner
+          work; some are administrative support on the same files. We scope
+          the hours and the fee on a call, and nothing is charged until the
+          firm agrees.
         </p>
-      </PageHero>
-
-      <section className="mx-auto max-w-6xl px-6 py-16">
-        <SectionHeading kicker="Retainer" title="Case support retainer">
-          <p>
-            The monthly price steps down as you commit to more hours each
-            month.
-          </p>
-        </SectionHeading>
-        <div className="grid gap-6 sm:grid-cols-2 xl:grid-cols-4">
-          {tiers.map((tier) => (
-            <Card
-              key={tier.name}
-              title={tier.name}
-              featured={Boolean(tier.featured)}
-            >
-              <p className="font-mono text-sm uppercase tracking-wider text-accent-2">
-                {tier.hours}
-              </p>
-              <p className="mt-3 font-display text-4xl font-bold text-text">
-                {tier.price}{" "}
-                <span className="text-base font-medium text-muted">
-                  per month
-                </span>
-              </p>
-              <p className="mb-4 flex flex-1 items-end text-base">{tier.note}</p>
-              <p className="mt-auto pt-4">
-                <Button href={BOOKING_URL} variant="primary">
-                  Book a call
-                </Button>
-              </p>
-            </Card>
-          ))}
-        </div>
-        <p className="body-copy mt-8 text-base text-muted sm:text-lg">
-          Not sure which tier fits? Book a call and we&apos;ll recommend the
-          shape that suits you.{" "}
-          <a href={BOOKING_URL} className="text-accent hover:underline">
-            Contact HDR Keel
+        <p className="mt-4">
+          Prefer to write?{" "}
+          <a
+            href={`mailto:${CONTACT_EMAIL}`}
+            className="text-accent hover:underline"
+          >
+            {CONTACT_EMAIL}
           </a>
         </p>
-        <p className="body-copy mt-4 text-base text-muted sm:text-lg">
-          Each retainer is for a set number of hours per month, delivered at no
-          more than 10 hours per week per client. Unused hours roll over into
-          the next month within the same quarter, subject to the retainer
-          agreement.
-        </p>
-      </section>
-
-      <section className="bg-surface px-6 py-16">
-        <div className="mx-auto max-w-5xl">
-          <SectionHeading
-            kicker="Day rates"
-            title="Training and AI consultancy"
-          >
-            <p>
-              Training and AI consultancy are priced at £700 per day. A five-day
-              block is £2,800, a reduced rate for booking a full week. A group
-              session counts as one booking so a firm can send a whole team at no
-              extra cost.
-            </p>
-          </SectionHeading>
-          <Button href={BOOKING_URL} variant="primary">
-            Book a training day
-          </Button>
-        </div>
-      </section>
-
-      <CtaBand title="Book a call" />
+      </PageHero>
+      <CtaBand title="Talk through the scope" />
     </>
   );
 }

@@ -24,7 +24,15 @@ export default function PageHero({
   visualOnMobile = false,
 }: PageHeroProps) {
   return (
-    <section className="relative px-6 pb-16 pt-16 sm:pb-20 sm:pt-20">
+    <section className="relative overflow-hidden px-6 pb-16 pl-8 pt-14 sm:pb-20 sm:pl-10 sm:pt-16">
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-y-0 left-0 w-2 bg-accent sm:w-2.5"
+      />
+      <div
+        aria-hidden="true"
+        className="pointer-events-none absolute inset-y-0 left-2 w-1.5 bg-accent-2 sm:left-2.5"
+      />
       <div
         className={`relative mx-auto ${
           visual
@@ -33,13 +41,13 @@ export default function PageHero({
         }`}
       >
         <div>
-          <p className="font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
+          <p className="inline-block rounded-sm bg-accent-2-soft px-2 py-1 text-xs font-semibold uppercase tracking-[0.18em] text-accent-2">
             {kicker}
           </p>
-          <h1 className="mt-4 max-w-3xl font-display text-4xl font-bold leading-tight tracking-tight text-text sm:text-5xl lg:text-6xl">
+          <h1 className="mt-4 max-w-3xl font-display text-4xl font-semibold leading-[1.15] tracking-tight text-text sm:text-5xl lg:text-[3.35rem]">
             {title}
           </h1>
-          <div className="body-copy mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
+          <div className="mt-6 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             {children}
           </div>
           {(primaryHref || secondaryHref) && (
@@ -69,10 +77,6 @@ export default function PageHero({
           </div>
         ) : null}
       </div>
-      <div
-        aria-hidden="true"
-        className="absolute inset-x-0 bottom-0 h-[3px] bg-accent"
-      />
     </section>
   );
 }

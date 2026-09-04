@@ -22,21 +22,21 @@ export default function Card({
   className = "",
 }: CardProps) {
   const HeadingTag = heading;
-  const frame = `overflow-hidden rounded-xl border bg-surface motion-safe:transition motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 ${
+  const frame = `overflow-hidden rounded-xl border border-t-[3px] bg-surface motion-safe:transition motion-safe:duration-200 motion-safe:hover:-translate-y-0.5 ${
     featured
-      ? "border-accent/70 ring-1 ring-accent/30"
-      : "border-white/10 hover:border-accent/40"
+      ? "border-accent border-t-accent-2"
+      : "border-line border-t-accent hover:border-accent/50"
   } ${className}`.trim();
 
   const headingBlock = (
     <>
       {kicker ? (
-        <p className="mb-2 font-mono text-xs font-medium uppercase tracking-[0.18em] text-accent-2">
+        <p className="mb-2 text-xs font-semibold uppercase tracking-[0.18em] text-accent-2">
           {kicker}
         </p>
       ) : null}
       {title ? (
-        <HeadingTag className="mb-3 font-display text-xl font-medium text-text sm:text-2xl">
+        <HeadingTag className="mb-3 font-display text-xl font-semibold text-text sm:text-2xl">
           {title}
         </HeadingTag>
       ) : null}

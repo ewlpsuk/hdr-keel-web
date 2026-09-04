@@ -2,9 +2,7 @@ import type { Metadata } from "next";
 import Button from "@/components/Button";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
-import { BOOKING_URL, pageMetadata } from "@/lib/site";
-
-const CONTROLLER_EMAIL = "privacy@hdrkeel.co.uk";
+import { BOOKING_URL, CONTACT_EMAIL, PRIVACY_EMAIL, pageMetadata } from "@/lib/site";
 
 export const metadata: Metadata = pageMetadata({
   title: "Privacy notice",
@@ -24,7 +22,7 @@ export default function PrivacyPage() {
         </p>
       </PageHero>
 
-      <section className="mx-auto max-w-5xl px-6 py-16">
+      <section className="mx-auto max-w-5xl space-y-14 px-6 py-16">
         <SectionHeading kicker="Who controls the data" title="Controller">
           <p>
             The data controller for this website is{" "}
@@ -35,10 +33,10 @@ export default function PrivacyPage() {
           <p className="mt-4">
             The controller can be contacted at{" "}
             <a
-              href={`mailto:${CONTROLLER_EMAIL}`}
+              href={`mailto:${PRIVACY_EMAIL}`}
               className="text-accent hover:underline"
             >
-              {CONTROLLER_EMAIL}
+              {PRIVACY_EMAIL}
             </a>
             .
           </p>
@@ -91,10 +89,10 @@ export default function PrivacyPage() {
             as the controller. If you have a question about this notice or how
             your data is handled, email the controller at{" "}
             <a
-              href={`mailto:${CONTROLLER_EMAIL}`}
+              href={`mailto:${PRIVACY_EMAIL}`}
               className="text-accent hover:underline"
             >
-              {CONTROLLER_EMAIL}
+              {PRIVACY_EMAIL}
             </a>
             . Data protection enquiries are handled directly and confidentially.
           </p>
@@ -104,21 +102,29 @@ export default function PrivacyPage() {
           </p>
         </SectionHeading>
 
-        <SectionHeading kicker="How to reach the controller" title="Contact">
+        <SectionHeading kicker="How to reach us" title="Contact">
           <p>
-            For data protection enquiries, email the controller directly at{" "}
+            For data protection enquiries, email the controller at{" "}
             <a
-              href={`mailto:${CONTROLLER_EMAIL}`}
+              href={`mailto:${PRIVACY_EMAIL}`}
               className="text-accent hover:underline"
             >
-              {CONTROLLER_EMAIL}
+              {PRIVACY_EMAIL}
             </a>
-            . You can also book a short call using the booking slot on this
-            site if you prefer to speak to someone.
+            . For a service enquiry, email{" "}
+            <a
+              href={`mailto:${CONTACT_EMAIL}`}
+              className="text-accent hover:underline"
+            >
+              {CONTACT_EMAIL}
+            </a>{" "}
+            or book a short call.
           </p>
-          <Button href={BOOKING_URL} variant="primary">
-            Book a call
-          </Button>
+          <div className="mt-4">
+            <Button href={BOOKING_URL} variant="primary">
+              Book a call
+            </Button>
+          </div>
         </SectionHeading>
       </section>
     </>
