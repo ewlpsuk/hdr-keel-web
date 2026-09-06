@@ -33,6 +33,7 @@ export const CONDUCT_NOTICE =
   "The instructing firm retains conduct of the matter and all responsibility to its client and to the regulator. HDR Keel works under the firm's instruction and supervision. All advice, correspondence and decisions are the firm's to make and sign off. Nothing on this site constitutes legal advice to any firm's client.";
 
 export const navItems = [
+  { href: "/course", label: "Course" },
   { href: "/services", label: "Services" },
   { href: "/how-it-works", label: "How it works" },
   { href: "/about", label: "About" },

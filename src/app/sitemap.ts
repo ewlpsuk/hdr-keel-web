@@ -14,6 +14,9 @@ const extraPages = [
   "/services/case-support",
   "/services/training",
   "/services/ai-implementation",
+  "/course/fundamentals",
+  "/course/craft",
+  "/course/command",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {
