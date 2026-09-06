@@ -41,7 +41,12 @@ export default async function CourseLevelPage({
   if (!level) return notFound();
 
   const material = level.modules
-    .map((m) => `${m.title} (stages ${m.stages}):\n${m.content}\nSkills: ${m.skills.join("; ")}`)
+    .map(
+      (m) =>
+        `${m.title} (stages ${m.stages}):\n${m.content}\nSkills: ${m.skills.join(
+          "; ",
+        )}\nBoundary: ${m.boundary}`,
+    )
     .join("\n\n");
 
   const index = COURSE_LEVELS.findIndex((l) => l.slug === level.slug);
@@ -106,6 +111,12 @@ export default async function CourseLevelPage({
               <div className="mt-4 rounded-lg border border-line bg-bg p-4">
                 <p className="text-sm font-semibold text-accent">Scenario drill</p>
                 <p className="mt-1 text-sm text-muted">{m.drill}</p>
+              </div>
+              <div className="mt-4 rounded-lg border border-l-accent bg-surface p-4">
+                <p className="text-sm font-semibold text-accent">
+                  The line between what you prepare and what the firm conducts
+                </p>
+                <p className="mt-1 text-sm text-muted">{m.boundary}</p>
               </div>
               <div className="mt-4">
                 <p className="text-sm font-semibold text-text">Reference material</p>
