@@ -1,13 +1,21 @@
 {
-  "updated": "2026-09-06",
+  "updated": "2026-09-07",
   "items": [
+    {
+      "title": "Social Housing Bill receives Second Reading in the House of Commons this week",
+      "source": "Hansard Society",
+      "url": "https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-7-september-2026",
+      "category": "Regulation",
+      "date": "07/09/2026",
+      "summary": "As reported by the Hansard Society, the Social Housing Bill receives its Second Reading in the House of Commons this week. Begun in the Lords, it would extend the qualifying period for the Right to Buy from three to ten years and cut the maximum discount available. It also requires landlords to notify local authorities before social homes are sold outside the regulated sector."
+    },
     {
       "title": "Scottish Government publishes Awaab's Law guidance for tenants in Scotland",
       "source": "Scottish Government",
       "url": "https://www.gov.scot/publications/awaabs-law-guidance-tenants-scotland/",
       "category": "Regulation",
       "date": "04/09/2026",
-      "summary": "As reported by Scottish Government, Awaab's Law will come into effect in Scotland on 6 October 2026, with cases reported before that date not subject to its timeframes. Landlords must investigate reports of damp or mould within 10 working days, provide a written summary of findings within 3 working days, and commence repairs within 5 working days. It applies to Scottish Secure Tenancies, Short Scottish Secure Tenancies and most private tenancies."
+      "summary": "As reported by Scottish Government, Awaab's Law comes into force in Scotland on 6 October 2026, with earlier cases outside its timeframes. Landlords must investigate damp or mould reports within 10 working days, give written findings within 3, and begin repairs within 5. It applies to Scottish Secure, Short Scottish Secure and most private tenancies."
     },
     {
       "title": "Foreign lawyer struck off after submitting AI-generated false case citations at the SDT",
@@ -15,7 +23,7 @@
       "url": "https://www.lawgazette.co.uk/news/foreign-lawyer-produced-ai-generated-false-citations-at-sdt/5127825.article",
       "category": "Legal tech",
       "date": "04/09/2026",
-      "summary": "As reported by Law Society Gazette, a foreign lawyer used AI-generated false case citations in a written defence before the Solicitors Disciplinary Tribunal and was struck off. The tribunal said it was the first time it had considered false case citations produced by AI and that misleading submissions were unacceptable, warning of a hard line on lawyers who mislead proceedings through AI. It is a reminder to firms, including those bringing housing disrepair claims, of the need to verify any case law sourced from AI tools."
+      "summary": "As reported by Law Society Gazette, a foreign lawyer who used AI-generated false case citations in a written defence before the Solicitors Disciplinary Tribunal was struck off. The tribunal, considering such citations for the first time, warned it would take a hard line on lawyers misleading proceedings through AI. A reminder to housing disrepair specialists to verify case law sourced from AI."
     },
     {
       "title": "RSH quarterly survey: repairs and maintenance spending across social housing reaches £9.7 billion in 12 months",
@@ -87,7 +95,7 @@
       "url": "https://www.lawgazette.co.uk/news/appeal-for-housing-lawyers-to-continue-late-solicitors-invaluable-blog/5127742.article",
       "category": "Firm practice",
       "date": "26/08/2026",
-      "summary": "As reported by Law Society Gazette, barrister Justin Bates KC has asked housing law specialists to help continue Nearly Legal, the housing law blog set up by the late solicitor Giles Peaker in 2006. Bates, who co-drafted the Homes (Fitness for Human Habitation) Act with Peaker, will take control of the site and hopes to have it running again by October. It has been a widely used resource for lawyers, judges, academics and the public."
+      "summary": "As reported by Law Society Gazette, barrister Justin Bates KC has asked housing law specialists to help continue Nearly Legal, the housing law blog set up by the late solicitor Giles Peaker in 2006. Bates, who co-drafted the Homes (Fitness for Human Habitation) Act with Peaker, will take control of the site and hopes to have it running again by October."
     }
   ]
 }
