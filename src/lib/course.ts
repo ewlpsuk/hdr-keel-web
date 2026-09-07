@@ -90,15 +90,16 @@ export const COURSE_LEVELS: CourseLevel[] = [
         title: "The letter of claim and the pre-action protocol window",
         stages: "2-3",
         content:
-          "The England pre-action protocol step by step with the 20-working-day reply clock; what the letter of claim must particularise; reply handling; the disclosure obligation in the window; the Wales protocol divergence where it applies. Where a live file passes beyond what the firm holds, it is referred back.",
+          "The England pre-action protocol step by step with the 20-working-day reply clock; what the letter of claim must particularise; reply handling; the pre-action expert gate where the defendant responds with a schedule of works (the claimant cannot simply instruct an expert once the 20-working-day window has expired just because the defendant responded, and must engage as to why expert evidence is still necessary - Bryant v Trivallis); the disclosure obligation in the window; the Wales protocol divergence where it applies. Where a live file passes beyond what the firm holds, it is referred back.",
         skills: [
           "Drafting the jurisdiction-correct letter of claim",
           "Calendar discipline on the protocol clock",
           "Basic ADR and engagement framing (Churchill)",
+          "Applying the pre-action expert gate after a schedule-of-works response (Bryant v Trivallis)",
         ],
         drill: "Draft the letter of claim to deadline from a facts file, apply deemed service, state the reply date, and flag the two things most commonly wrong (missing jurisdiction duty, missed clock).",
         boundary:
-          "The letter of claim is a firm-staff drafting skill exercising the practitioner's knowledge, not a consumer-facing rights letter. Jurisdiction phrasing is fixed and separate, never a merged template.",
+          "The letter of claim is a firm-staff drafting skill exercising the practitioner's knowledge, not a consumer-facing rights letter. Jurisdiction phrasing is fixed and separate, never a merged template. The pre-action expert gate decision is made by the firm's conduct; the fee earner flags it in the reply analysis and prepares the position for the firm to hold in correspondence.",
         libraryLinks: [
           "Letter of claim and pre-action protocol checklist",
           "England PAP: the 20 working day clock",
@@ -106,6 +107,7 @@ export const COURSE_LEVELS: CourseLevel[] = [
           "Reply to letter of claim template",
           "Letter before action template",
           "Churchill v Merthyr digest",
+          "Bryant v Trivallis digest",
         ],
       },
       {
@@ -330,11 +332,12 @@ export const COURSE_LEVELS: CourseLevel[] = [
         title: "Instructing the expert and the joint expert statement",
         stages: "16",
         content:
-          "Instructing the surveyor on the HHSRS hazard footing (England, SI 2026/571); the letter of instruction, single joint expert versus party expert and the joint statement and meetings; the Wales divergence under the 2022 Fitness Regs; Awaab's Law Phase 2 hazard framing.",
+          "Instructing the surveyor on the HHSRS hazard footing (England, SI 2026/571); the letter of instruction, single joint expert versus party expert where the parties should co-operate in identifying a suitable single joint expert, and expert evidence should be single joint unless there are cogent reasons (Bryant v Trivallis); the joint statement and meetings; the Wales divergence under the 2022 Fitness Regs; Awaab's Law Phase 2 hazard framing. Sanctions for a unilateral party expert: the report is excluded, the claimant re-pleads and pays costs, and the claim is struck out where the re-plead is not made.",
         skills: [
           "Drafting the letter of instruction",
           "Framing the expert's questions to get admissible, HHSRS-mapped answers",
           "Preparing for the joint meeting",
+          "Justifying single joint versus party expert with cogent reasons (Bryant v Trivallis)",
         ],
         drill: "Draft an expert instruction letter identifying the HHSRS hazards in issue and the precise questions the expert must answer, in England framing, and produce the three points to raise at the joint meeting.",
         boundary:
@@ -345,6 +348,7 @@ export const COURSE_LEVELS: CourseLevel[] = [
           "Joint expert statement and meetings",
           "HHSRS: SI 2026/571, the 21 hazards and three bands",
           "Fire hazard inspection: Awaab's Phase 2",
+          "Bryant v Trivallis digest",
         ],
       },
       {
