@@ -1,0 +1,33 @@
+{
+  "product_compass": "prod_VDVRxeE07Dh7j5",
+  "product_course": "prod_VDVRjSgXsRCPFY",
+  "prices_compass_mo": {
+    "solo": "price_1UD4QVQN0hhxVlRG8Xn04zGi",
+    "practice": "price_1UD4QWQN0hhxVlRGywaFg9nc",
+    "firm": "price_1UD4QWQN0hhxVlRGXMYT0oeS"
+  },
+  "prices_course": {
+    "fundamentals": "price_1UD4QWQN0hhxVlRGCGGvKBfs",
+    "craft": "price_1UD4QWQN0hhxVlRGKWjvfi6R",
+    "command": "price_1UD4QXQN0hhxVlRGziogPTSR",
+    "full": "price_1UD4QXQN0hhxVlRG8pr3DVzP"
+  },
+  "payment_links": {
+    "fullpassage": {
+      "id": "plink_1UD4QkQN0hhxVlRGZCyYDsih",
+      "url": "https://buy.stripe.com/7sYaEZ0Bk6YT5p85Rkcwg07"
+    },
+    "command": {
+      "id": "plink_1UD4QjQN0hhxVlRGYsA2NrKG",
+      "url": "https://buy.stripe.com/eVqcN797Q2IDaJsfrUcwg06"
+    },
+    "craft": {
+      "id": "plink_1UD4QiQN0hhxVlRGXAX5PTFS",
+      "url": "https://buy.stripe.com/5kQ3cxck2fvp5p893wcwg05"
+    },
+    "fundamentals": {
+      "id": "plink_1UD4QhQN0hhxVlRGWAvZrX3f",
+      "url": "https://buy.stripe.com/9B6aEZfwe3MH6tc3Jccwg04"
+    }
+  }
+}

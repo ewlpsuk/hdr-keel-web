@@ -16,16 +16,16 @@
 export const COURSE_PAYMENT_LINKS = {
   fundamentals:
     process.env.NEXT_PUBLIC_COURSE_FUNDAMENTALS_URL ||
-    "https://buy.stripe.com/9B6aEZfwe3MH6tc3Jccwg04",
+    "https://buy.stripe.com/PLACEHOLDER_FUNDAMENTALS",
   craft:
     process.env.NEXT_PUBLIC_COURSE_CRAFT_URL ||
-    "https://buy.stripe.com/5kQ3cxck2fvp5p893wcwg05",
+    "https://buy.stripe.com/PLACEHOLDER_CRAFT",
   command:
     process.env.NEXT_PUBLIC_COURSE_COMMAND_URL ||
-    "https://buy.stripe.com/eVqcN797Q2IDaJsfrUcwg06",
+    "https://buy.stripe.com/PLACEHOLDER_COMMAND",
   package:
     process.env.NEXT_PUBLIC_COURSE_PACKAGE_URL ||
-    "https://buy.stripe.com/7sYaEZ0Bk6YT5p85Rkcwg07",
+    "https://buy.stripe.com/PLACEHOLDER_PACKAGE",
 };
 
 function isLive(url: string): boolean {
