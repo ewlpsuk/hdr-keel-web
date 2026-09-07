@@ -1,8 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import Card from "@/components/Card";
 import CheckoutButton from "@/components/CheckoutButton";
-import CourseChat from "@/components/CourseChat";
+import CourseModules from "@/components/CourseModules";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
@@ -39,15 +38,6 @@ export default async function CourseLevelPage({
   const { slug } = await params;
   const level = COURSE_LEVELS.find((l) => l.slug === slug);
   if (!level) return notFound();
-
-  const material = level.modules
-    .map(
-      (m) =>
-        `${m.title} (stages ${m.stages}):\n${m.content}\nSkills: ${m.skills.join(
-          "; ",
-        )}\nBoundary: ${m.boundary}`,
-    )
-    .join("\n\n");
 
   const index = COURSE_LEVELS.findIndex((l) => l.slug === level.slug);
   const prev = index > 0 ? COURSE_LEVELS[index - 1] : null;
@@ -91,59 +81,11 @@ export default async function CourseLevelPage({
           <p>
             Each module owns a slice of the pathway, with a scenario drill and a
             knowledge check, and links to the reference material that underpins
-            it.
+            it. Buying this level unlocks the modules and the ask-the-material
+            chat below.
           </p>
         </SectionHeading>
-        <div className="mt-8 space-y-6">
-          {level.modules.map((m, i) => (
-            <Card key={m.id} kicker={`Module ${i + 1} - stages ${m.stages}`} title={m.title}>
-              <p className="text-muted">{m.content}</p>
-              <div className="mt-4">
-                <p className="text-sm font-semibold text-text">Skills taught</p>
-                <ul className="mt-2 flex flex-wrap gap-2">
-                  {m.skills.map((s) => (
-                    <li key={s} className="rounded-full border border-line px-3 py-1 text-xs text-muted">
-                      {s}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-              <div className="mt-4 rounded-lg border border-line bg-bg p-4">
-                <p className="text-sm font-semibold text-accent">Scenario drill</p>
-                <p className="mt-1 text-sm text-muted">{m.drill}</p>
-              </div>
-              <div className="mt-4 rounded-lg border border-l-accent bg-surface p-4">
-                <p className="text-sm font-semibold text-accent">
-                  The line between what you prepare and what the firm conducts
-                </p>
-                <p className="mt-1 text-sm text-muted">{m.boundary}</p>
-              </div>
-              <div className="mt-4">
-                <p className="text-sm font-semibold text-text">Reference material</p>
-                <ul className="mt-2 space-y-1">
-                  {m.libraryLinks.map((ref) => (
-                    <li key={ref} className="text-sm text-muted">
-                      - {ref}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </Card>
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-5xl px-6 py-16">
-        <SectionHeading kicker="Ask the material" title="Chat with this level's content">
-          <p>
-            Bring your own AI key and put your own case scenarios to this
-            level&apos;s material. The chat explains the reasoning; it does not give
-            consumer legal advice.
-          </p>
-        </SectionHeading>
-        <div className="mt-8">
-          <CourseChat levelName={level.name} material={material} />
-        </div>
+        <CourseModules slug={level.slug} />
       </section>
 
       <section className="mx-auto max-w-5xl px-6 py-16">

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Card from "@/components/Card";
 import CheckoutButton from "@/components/CheckoutButton";
+import CourseHubAccess from "@/components/CourseHubAccess";
 import CtaBand from "@/components/CtaBand";
 import PageHero from "@/components/PageHero";
 import SectionHeading from "@/components/SectionHeading";
@@ -43,6 +44,8 @@ export default function CoursePage() {
           you need it. No subscription, no lock-in.
         </p>
       </PageHero>
+
+      <CourseHubAccess />
 
       <section className="mx-auto max-w-5xl px-6 py-16">
         <SectionHeading
