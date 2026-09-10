@@ -1,13 +1,29 @@
 {
-  "updated": "2026-09-09",
+  "updated": "2026-09-10",
   "items": [
     {
-      "title": "Social Housing Bill receives Second Reading in the House of Commons this week",
-      "source": "Hansard Society",
-      "url": "https://www.hansardsociety.org.uk/news/parliament-matters-bulletin-7-september-2026",
+      "title": "Social Housing Bill receives Second Reading in the House of Commons",
+      "source": "Chartered Institute of Housing",
+      "url": "https://www.cih.org/news/the-social-housing-bill-second-reading-briefing-commons-stage/",
+      "category": "Housing law",
+      "date": "10/09/2026",
+      "summary": "As reported by the Chartered Institute of Housing, the Social Housing Bill receives its Second Reading in the House of Commons on 10 September 2026, having completed its Lords stages. The bill would reform the Right to Buy, require four weeks notice before a private registered provider sells a social home, and strengthen protections for tenants who are victims of domestic abuse."
+    },
+    {
+      "title": "Regulator of Social Housing finds for-profit landlord failed governance and viability standards",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/small-for-profit-landlord-making-plans-for-merger-as-part-of-regulatory-plan/5144021.article",
       "category": "Regulation",
-      "date": "07/09/2026",
-      "summary": "As reported by the Hansard Society, the Social Housing Bill receives its Second Reading in the House of Commons this week. Begun in the Lords, it would extend the qualifying period for the Right to Buy from three to ten years and cut the maximum discount available. It also requires landlords to notify local authorities before social homes are sold outside the regulated sector."
+      "date": "09/09/2026",
+      "summary": "As reported by Housing Today, the Regulator of Social Housing found for-profit landlord Keystone CIC failed to meet governance and viability standards, after an investigation into weaknesses in its financial risk management and business planning. The Luton-based landlord plans to merge into another social landlord. Melton Borough Council was upgraded from C2 to C1 in the same batch."
+    },
+    {
+      "title": "Councils call for tighter rules on sale of social homes to non-resident buyers",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/council-body-calls-for-tighter-rules-on-sale-of-social-and-affordable-homes-to-non-resident-buyers/5144003.article",
+      "category": "Regulation",
+      "date": "08/09/2026",
+      "summary": "As reported by Housing Today, the Local Councils Network has urged the government to tighten the rules on sales of subsidised social and affordable homes to private buyers who do not live in them, after figures reached record levels. Research based on Freedom of Information requests found housing associations in England have sold roughly 25,000 such homes since 2018/19, including 5,250 in 2024/25."
     },
     {
       "title": "MoJ evaluation reveals legal aid training grant success for housing sector",
@@ -15,7 +31,7 @@
       "url": "https://www.lawgazette.co.uk/news/moj-evaluation-reveals-legal-aid-training-grant-success/5127826.article",
       "category": "Firm practice",
       "date": "06/09/2026",
-      "summary": "As reported by Law Society Gazette, the Ministry of Justice has evaluated a £1.5 million grant that ran from 2023 to 2025 to recruit housing and debt solicitors. It helped train up to 31 solicitors across 26 provider firms, and 90 per cent said they could not have hired a trainee without it. The department is now considering next steps for the housing legal aid sector."
+      "summary": "As reported by Law Society Gazette, the Ministry of Justice has evaluated a 1.5 million pound grant that ran from 2023 to 2025 to recruit housing and debt solicitors. It helped train up to 31 solicitors across 26 provider firms, and 90 per cent said they could not have hired a trainee without it. The department is now considering next steps for the housing legal aid sector."
     },
     {
       "title": "Scottish Government publishes Awaab's Law guidance for tenants in Scotland",
@@ -34,12 +50,12 @@
       "summary": "As reported by Law Society Gazette, a foreign lawyer who used AI-generated false case citations in a written defence before the Solicitors Disciplinary Tribunal was struck off. The tribunal, considering such citations for the first time, warned it would take a hard line on lawyers misleading proceedings through AI. A reminder to housing disrepair specialists to verify case law sourced from AI."
     },
     {
-      "title": "RSH quarterly survey: repairs and maintenance spending across social housing reaches £9.7 billion in 12 months",
+      "title": "RSH quarterly survey: repairs and maintenance spending across social housing reaches 9.7 billion pounds in 12 months",
       "source": "GOV.UK (Regulator of Social Housing)",
       "url": "https://www.gov.uk/government/news/rsh-publishes-its-quarterly-survey-for-q1-april-to-june-2026",
       "category": "Regulation",
       "date": "03/09/2026",
-      "summary": "As reported by GOV.UK, the Regulator of Social Housing's quarterly survey shows repairs and maintenance spend by private registered providers reached £2.4 billion in the quarter to June 2026, totalling £9.7 billion over the past 12 months. Providers raised £4.3 billion in the quarter and forecast £11.1 billion of repairs spend over the next year."
+      "summary": "As reported by GOV.UK, the Regulator of Social Housing's quarterly survey shows repairs and maintenance spend by private registered providers reached 2.4 billion pounds in the quarter to June 2026, totalling 9.7 billion pounds over the past 12 months. Providers raised 4.3 billion pounds in the quarter and forecast 11.1 billion pounds of repairs spend over the next year."
     },
     {
       "title": "Thursday Housing Update 25: what happens when the estimated cost of repairs is wrong",
@@ -80,22 +96,6 @@
       "category": "Case law",
       "date": "01/09/2026",
       "summary": "As reported by Inside Housing, the High Court has ruled that a local authority's main housing duty does not automatically end once it offers private rented accommodation, a judgment welcomed by the Waltham Forest council involved. Commentators expect the ruling to influence homelessness decision-making for years. It is relevant to solicitors advising applicants in such cases."
-    },
-    {
-      "title": "New statutory temporary accommodation duty comes into force",
-      "source": "Inside Housing",
-      "url": "https://www.insidehousing.co.uk/news/new-statutory-temporary-accommodation-duty-comes-into-force-98548",
-      "category": "Regulation",
-      "date": "01/09/2026",
-      "summary": "As reported by Inside Housing, a new statutory duty came into force on 1 September 2026 requiring local authorities to notify education settings, GP practices and health visiting teams when a child is placed into temporary accommodation. The measure alerts the support services a child needs to their placement. Councils and advisers working with homeless families are affected."
-    },
-    {
-      "title": "Consumer upgrades for two housing associations",
-      "source": "GOV.UK (Regulator of Social Housing)",
-      "url": "https://www.gov.uk/government/news/consumer-upgrades-for-two-housing-associations",
-      "category": "Regulation",
-      "date": "26/08/2026",
-      "summary": "As reported by GOV.UK, the Regulator of Social Housing upgraded Livin Housing and Community Gateway from C2 to C1 consumer grades in judgements published on 26 August 2026. The regulator also graded Amplius Living C2, G1 and V2, noting weaknesses in its repairs service and challenges in meeting the increased legal requirements for tackling damp and mould under Awaab's Law."
     }
   ]
 }
