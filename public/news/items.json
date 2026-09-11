@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-10",
+  "updated": "2026-09-11",
   "items": [
     {
       "title": "Social Housing Bill receives Second Reading in the House of Commons",
@@ -10,12 +10,28 @@
       "summary": "As reported by the Chartered Institute of Housing, the Social Housing Bill receives its Second Reading in the House of Commons on 10 September 2026, having completed its Lords stages. The bill would reform the Right to Buy, require four weeks notice before a private registered provider sells a social home, and strengthen protections for tenants who are victims of domestic abuse."
     },
     {
+      "title": "PRS database opens for landlord registration from 15 December at 65 pounds per property",
+      "source": "National Residential Landlords Association",
+      "url": "https://www.nrla.org.uk/news/landlord-database-rollout-to-start-december",
+      "category": "Regulation",
+      "date": "09/09/2026",
+      "summary": "As reported by the National Residential Landlords Association, registration on the new private rented sector database opens from 15 December 2026 in a 12-month rollout starting in the West Midlands. Landlords in England pay 65 pounds per property per year and must register all homes by 14 November 2027. Penalties run to 7,000 pounds, or 40,000 pounds for repeat breaches, and the Valuation Office is to take over section 13 rent increase challenges."
+    },
+    {
       "title": "Regulator of Social Housing finds for-profit landlord failed governance and viability standards",
       "source": "Housing Today",
       "url": "https://www.housingtoday.co.uk/news/small-for-profit-landlord-making-plans-for-merger-as-part-of-regulatory-plan/5144021.article",
       "category": "Regulation",
       "date": "09/09/2026",
       "summary": "As reported by Housing Today, the Regulator of Social Housing found for-profit landlord Keystone CIC failed to meet governance and viability standards, after an investigation into weaknesses in its financial risk management and business planning. The Luton-based landlord plans to merge into another social landlord. Melton Borough Council was upgraded from C2 to C1 in the same batch."
+    },
+    {
+      "title": "Government calls for views on revising social housing allocations guidance",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/397-housing-news/101628-government-calls-for-views-on-revising-social-housing-allocations-guidance",
+      "category": "Housing law",
+      "date": "08/09/2026",
+      "summary": "As reported by Local Government Lawyer, the Ministry of Housing, Communities and Local Government has called for evidence on the statutory guidance covering social housing allocations in England. It will consider qualification rules, local connection, affordability, debt and anti-social behaviour criteria, and how schemes affect homeless and vulnerable households. The current guidance dates from 2012."
     },
     {
       "title": "Councils call for tighter rules on sale of social homes to non-resident buyers",
@@ -80,22 +96,6 @@
       "category": "Legal tech",
       "date": "01/09/2026",
       "summary": "As reported by Artificial Lawyer, research by the legal charity Justice and the Administrative Fairness Lab found that just over a quarter of 18 to 24 year olds used AI when facing a legal problem, against around 10% of those aged 55 to 64. Many turned to AI on problems largely outside legal aid, including housing, employment and debt, raising accuracy concerns about unregulated chatbot advice."
-    },
-    {
-      "title": "Pennycook praises Supreme Court judgment on Right to Manage",
-      "source": "Inside Housing",
-      "url": "https://www.insidehousing.co.uk/news/pennycook-praises-supreme-court-judgment-on-right-to-manage-98545",
-      "category": "Housing law",
-      "date": "01/09/2026",
-      "summary": "As reported by Inside Housing, the Supreme Court has handed down a Right to Manage ruling that housing minister Matthew Pennycook has praised, and which lawyers believe will make it much harder for landlords to object to such claims. The decision affects how and when leaseholders of a qualifying building can take over its management from their landlord."
-    },
-    {
-      "title": "High Court ruling on council housing duty will 'influence homelessness decision-making for years to come'",
-      "source": "Inside Housing",
-      "url": "https://www.insidehousing.co.uk/news/high-court-ruling-on-council-housing-duty-will-influence-homelessness-decision-making-for-years-to-come-98555",
-      "category": "Case law",
-      "date": "01/09/2026",
-      "summary": "As reported by Inside Housing, the High Court has ruled that a local authority's main housing duty does not automatically end once it offers private rented accommodation, a judgment welcomed by the Waltham Forest council involved. Commentators expect the ruling to influence homelessness decision-making for years. It is relevant to solicitors advising applicants in such cases."
     }
   ]
 }
