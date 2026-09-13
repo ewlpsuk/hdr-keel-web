@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-11",
+  "updated": "2026-09-13",
   "items": [
+    {
+      "title": "National Audit Office to investigate resilience of the temporary accommodation system",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/397-housing-news/101663-national-audit-office-to-investigate-resilience-of-temporary-accommodation-system",
+      "category": "Regulation",
+      "date": "11/09/2026",
+      "summary": "As reported by Local Government Lawyer, the National Audit Office has launched an inquiry into whether the temporary accommodation system delivers value for money, with a report due in Spring 2027. It will examine MHCLG's stewardship and whether the system delivers suitable homes and good outcomes for households. A record 135,600 households were in temporary accommodation in England in March 2026."
+    },
+    {
+      "title": "CIH calls on Autumn Budget to fund social homes and tackle temporary accommodation crisis",
+      "source": "Chartered Institute of Housing",
+      "url": "https://www.cih.org/news/cih-submission-to-autumn-budget-2026/",
+      "category": "Firm practice",
+      "date": "11/09/2026",
+      "summary": "As reported by the Chartered Institute of Housing, its Autumn Budget submission urges government to build and retain more social housing, free councils from historic Housing Revenue Account debt, and tackle the temporary accommodation crisis. It cites 134,210 households in temporary accommodation and seeks Local Housing Allowance rates matching true rental costs."
+    },
     {
       "title": "Social Housing Bill receives Second Reading in the House of Commons",
       "source": "Chartered Institute of Housing",
@@ -74,28 +90,12 @@
       "summary": "As reported by GOV.UK, the Regulator of Social Housing's quarterly survey shows repairs and maintenance spend by private registered providers reached 2.4 billion pounds in the quarter to June 2026, totalling 9.7 billion pounds over the past 12 months. Providers raised 4.3 billion pounds in the quarter and forecast 11.1 billion pounds of repairs spend over the next year."
     },
     {
-      "title": "Thursday Housing Update 25: what happens when the estimated cost of repairs is wrong",
-      "source": "Steve Cornforth",
-      "url": "https://stevecornforth.substack.com/p/thursday-housing-update-25-what-happens",
-      "category": "Firm practice",
-      "date": "03/09/2026",
-      "summary": "As reported by consultant lawyer Steve Cornforth, his weekly update for housing conditions practitioners discusses a claim reallocated from the Small Claims Track to the Fast Track after a defendant's estimated cost of repairs proved inaccurate at allocation. It also reviews when a landlord may obtain forced access for an inspection, drawing on the county court decision in Stonewater Ltd v Harris."
-    },
-    {
       "title": "CIH and CIOB publish joint guidance on tackling damp and mould in social housing",
       "source": "Chartered Institute of Housing",
       "url": "https://www.cih.org/news/joint-cih-and-ciob-publication-highlights-latest-sector-guidance-for-tackling-damp-and-mould/",
       "category": "Regulation",
       "date": "02/09/2026",
       "summary": "As reported by the Chartered Institute of Housing, it and the Chartered Institute of Building have jointly published guidance titled Tackling damp and mould: professional practice, cultural change and regulation in social housing. The guide reflects Awaab's Law and the Hazards in Social Housing (Prescribed Requirements) (England) Regulations 2025, and covers construction causes of damp and mould."
-    },
-    {
-      "title": "One in four young people use AI to help with their legal needs, Justice research finds",
-      "source": "Artificial Lawyer",
-      "url": "https://www.artificiallawyer.com/2026/09/01/1-4-of-young-people-use-ai-for-their-legal-needs/",
-      "category": "Legal tech",
-      "date": "01/09/2026",
-      "summary": "As reported by Artificial Lawyer, research by the legal charity Justice and the Administrative Fairness Lab found that just over a quarter of 18 to 24 year olds used AI when facing a legal problem, against around 10% of those aged 55 to 64. Many turned to AI on problems largely outside legal aid, including housing, employment and debt, raising accuracy concerns about unregulated chatbot advice."
     }
   ]
 }
