@@ -1,6 +1,22 @@
 {
-  "updated": "2026-09-14",
+  "updated": "2026-09-15",
   "items": [
+    {
+      "title": "Housing Ombudsman annual review shows falling severe maladministration findings as repairs still dominate",
+      "source": "Housing Ombudsman Service",
+      "url": "https://www.housing-ombudsman.org.uk/2026/09/15/housing-ombudsmans-annual-complaints-review-finds-landlords-resolving-more-issues-before-they-escalate/",
+      "category": "Regulation",
+      "date": "15/09/2026",
+      "summary": "As reported by the Housing Ombudsman, its Annual Complaints Review for 2025-26 records 8,783 determinations and severe maladministration findings falling to 470, from 714. Repairs featured in 80 per cent of cases, with damp and mould making up 34 per cent of repairs complaints and leaks 23 per cent, and over 75 per cent of both upheld. 4.8 million pounds in compensation was ordered."
+    },
+    {
+      "title": "Liberal Democrats push to legislate a 150,000-a-year social homes target",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/lib-dems-push-to-legislate-150000-a-year-social-homes-target/5144108.article",
+      "category": "Housing law",
+      "date": "14/09/2026",
+      "summary": "As reported by Housing Today, the Liberal Democrats have introduced a private members' bill setting a legal target of 150,000 new social homes a year, described as the missing half of the government's Social Housing Bill. It would give councils control over Right to Buy rules and receipts and create a rent-to-equity route for tenants to build equity from rent payments."
+    },
     {
       "title": "National Audit Office to investigate resilience of the temporary accommodation system",
       "source": "Local Government Lawyer",
@@ -24,14 +40,6 @@
       "category": "Housing law",
       "date": "10/09/2026",
       "summary": "As reported by the Chartered Institute of Housing, the Social Housing Bill receives its Second Reading in the House of Commons on 10 September 2026, having completed its Lords stages. The bill would reform the Right to Buy, require four weeks notice before a private registered provider sells a social home, and strengthen protections for tenants who are victims of domestic abuse."
-    },
-    {
-      "title": "HHSRS overhaul puts landlord inspection records and repair evidence under closer scrutiny",
-      "source": "Property118",
-      "url": "https://www.property118.com/landlords-face-3-5bn-hhsrs-penalty-exposure/",
-      "category": "Regulation",
-      "date": "04/08/2026",
-      "summary": "As reported by Property118, the revised Housing Health and Safety Rating System took effect on 23 June 2026, cutting hazards from 29 to 21. Councils can now issue a 7,000 pound civil penalty for a Category 1 hazard without going to court, rising to 40,000 pounds for repeat breaches. Over 500,000 privately rented homes in England are estimated to contain a Category 1 hazard."
     },
     {
       "title": "PRS database opens for landlord registration from 15 December at 65 pounds per property",
@@ -88,14 +96,6 @@
       "category": "Legal tech",
       "date": "04/09/2026",
       "summary": "As reported by Law Society Gazette, a foreign lawyer who used AI-generated false case citations in a written defence before the Solicitors Disciplinary Tribunal was struck off. The tribunal, considering such citations for the first time, warned it would take a hard line on lawyers misleading proceedings through AI. A reminder to housing disrepair specialists to verify case law sourced from AI."
-    },
-    {
-      "title": "RSH quarterly survey: repairs and maintenance spending across social housing reaches 9.7 billion pounds in 12 months",
-      "source": "GOV.UK (Regulator of Social Housing)",
-      "url": "https://www.gov.uk/government/news/rsh-publishes-its-quarterly-survey-for-q1-april-to-june-2026",
-      "category": "Regulation",
-      "date": "03/09/2026",
-      "summary": "As reported by GOV.UK, the Regulator of Social Housing's quarterly survey shows repairs and maintenance spend by private registered providers reached 2.4 billion pounds in the quarter to June 2026, totalling 9.7 billion pounds over the past 12 months. Providers raised 4.3 billion pounds in the quarter and forecast 11.1 billion pounds of repairs spend over the next year."
     }
   ]
 }
