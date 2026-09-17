@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-16",
+  "updated": "2026-09-17",
   "items": [
+    {
+      "title": "Justice minister says UK must embrace AI now for use in court",
+      "source": "Law Society Gazette",
+      "url": "https://www.lawgazette.co.uk/news/minister-says-uk-must-embrace-ai-now-for-use-in-court/5127911.article",
+      "category": "Legal tech",
+      "date": "16/09/2026",
+      "summary": "As reported by the Law Society Gazette, justice minister Sarah Sackman told lawyers at a City of London Law Society conference there was no choice but to embrace AI in the court process, warning the UK risked falling behind other jurisdictions. The Ministry of Justice is developing AI scheduling, transcription and mediation tools. Relevant to housing disrepair firms weighing legal tech."
+    },
     {
       "title": "Ombudsman finds council left resident in disrepair in temporary accommodation and blocked a suitability review",
       "source": "Local Government Lawyer",
@@ -31,7 +39,7 @@
       "url": "https://www.nrla.org.uk/news/what-hhsrs-means-in-practice-what-the-2026-reforms-mean-for-landlords-on-the-ground",
       "category": "Regulation",
       "date": "14/09/2026",
-      "summary": "As reported by the National Residential Landlords Association, the updated Housing Health and Safety Rating System came into force on 23 June 2026 and applies to any inspection started on or after 22 June 2026. Prescribed hazard descriptions fall from 29 to 21, and the former A to J bands are replaced by High, Medium and Low, where a High score of 1,000 or above takes the place of a Category 1 hazard."
+      "summary": "As reported by the National Residential Landlords Association, the updated Housing Health and Safety Rating System came into force on 23 June 2026 and applies to any inspection started on or after 22 June 2026. Prescribed hazard descriptions fall from 29 to 21, and the former A to J bands are replaced by High, Medium and Low scores, where 1,000 or above counts as High."
     },
     {
       "title": "Legal aid firms absorb 10p gap between HMRC and Legal Aid Agency mileage rates",
@@ -39,7 +47,7 @@
       "url": "https://www.lawgazette.co.uk/news/legal-aid-firms-take-financial-hit-over-10p-mileage-discrepancy/5127897.article",
       "category": "Firm practice",
       "date": "14/09/2026",
-      "summary": "As reported by Law Society Gazette, the Legal Aid Practitioners Group says firms are paying the 10p difference between the HM Revenue and Customs mileage rate of 55p for the first 10,000 business miles and the Legal Aid Agency rate, which remains at 45p. It also says mileage claims must be submitted twice under current guidance, adding unremunerated time for fee earners attending courts and tribunals."
+      "summary": "As reported by Law Society Gazette, the Legal Aid Practitioners Group says firms are paying the 10p difference between the HM Revenue and Customs mileage rate of 55p and the Legal Aid Agency rate, which remains at 45p. It also says mileage claims must be submitted twice under current guidance, adding unremunerated time for fee earners attending courts and tribunals."
     },
     {
       "title": "National Audit Office to investigate resilience of the temporary accommodation system",
