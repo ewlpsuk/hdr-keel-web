@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-17",
+  "updated": "2026-09-18",
   "items": [
+    {
+      "title": "Upper Tribunal confirms service charge liability follows the lease in mixed-tenure developments",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/315-housing-features/101698-mixed-tenure-developments-and-service-charges",
+      "category": "Case law",
+      "date": "18/09/2026",
+      "summary": "As reported by Local Government Lawyer, the Upper Tribunal upheld a decision in Notting Hill Home Ownership Ltd v Samoail that service charge recovery depends on the lease terms, not the costs a landlord incurs under a superior lease. The landlord could not recover estate charges for facilities its shared ownership leaseholders could not use, and failed to vary the leases."
+    },
+    {
+      "title": "Scottish regulator reports more than 40,000 damp and mould cases resolved ahead of Awaab's Law",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/scottish-regulator-publishes-first-review-of-landlords-damp-and-mould-performance-ahead-of-awaabs-law/5144175.article",
+      "category": "Regulation",
+      "date": "17/09/2026",
+      "summary": "As reported by Housing Today, the Scottish Housing Regulator's first review of its damp and mould performance indicators found social landlords resolved more than 40,000 cases in 2025-26, taking an average of 26 days, with no recurrence in 92 per cent of them. Condensation was the most common cause of reopened cases at 52 per cent. Awaab's Law takes effect in Scotland on 6 October 2026."
+    },
+    {
+      "title": "Council spending on temporary accommodation hits record 2.9 billion pounds",
+      "source": "Inside Housing",
+      "url": "https://www.insidehousing.co.uk/news/council-spending-on-temporary-accommodation-rises-to-29bn-98753",
+      "category": "Regulation",
+      "date": "17/09/2026",
+      "summary": "As reported by Inside Housing, councils in England spent a record 2.9 billion pounds on temporary accommodation in the year to April 2026, nearly double the level of five years earlier, on official figures published on 17 September. The rise adds to pressure on council housing budgets as more households are placed in temporary accommodation."
+    },
     {
       "title": "Justice minister says UK must embrace AI now for use in court",
       "source": "Law Society Gazette",
@@ -24,14 +48,6 @@
       "category": "Regulation",
       "date": "15/09/2026",
       "summary": "As reported by the Housing Ombudsman, its Annual Complaints Review for 2025-26 records 8,783 determinations and severe maladministration findings falling to 470, from 714. Repairs featured in 80 per cent of cases, with damp and mould making up 34 per cent of repairs complaints and leaks 23 per cent, and over 75 per cent of both upheld. 4.8 million pounds in compensation was ordered."
-    },
-    {
-      "title": "Liberal Democrats push to legislate a 150,000-a-year social homes target",
-      "source": "Housing Today",
-      "url": "https://www.housingtoday.co.uk/news/lib-dems-push-to-legislate-150000-a-year-social-homes-target/5144108.article",
-      "category": "Housing law",
-      "date": "14/09/2026",
-      "summary": "As reported by Housing Today, the Liberal Democrats have introduced a private members' bill setting a legal target of 150,000 new social homes a year, described as the missing half of the government's Social Housing Bill. It would give councils control over Right to Buy rules and receipts and create a rent-to-equity route for tenants to build equity from rent payments."
     },
     {
       "title": "Updated HHSRS brings fewer hazard categories and a simplified scoring system",
@@ -58,14 +74,6 @@
       "summary": "As reported by Local Government Lawyer, the National Audit Office has launched an inquiry into whether the temporary accommodation system delivers value for money, with a report due in Spring 2027. It will examine MHCLG's stewardship and whether the system delivers suitable homes and good outcomes for households. A record 135,600 households were in temporary accommodation in England in March 2026."
     },
     {
-      "title": "CIH calls on Autumn Budget to fund social homes and tackle temporary accommodation crisis",
-      "source": "Chartered Institute of Housing",
-      "url": "https://www.cih.org/news/cih-submission-to-autumn-budget-2026/",
-      "category": "Firm practice",
-      "date": "11/09/2026",
-      "summary": "As reported by the Chartered Institute of Housing, its Autumn Budget submission urges government to build and retain more social housing, free councils from historic Housing Revenue Account debt, and tackle the temporary accommodation crisis. It cites 134,210 households in temporary accommodation and seeks Local Housing Allowance rates matching true rental costs."
-    },
-    {
       "title": "Social Housing Bill receives Second Reading in the House of Commons",
       "source": "Chartered Institute of Housing",
       "url": "https://www.cih.org/news/the-social-housing-bill-second-reading-briefing-commons-stage/",
@@ -80,14 +88,6 @@
       "category": "Regulation",
       "date": "09/09/2026",
       "summary": "As reported by the National Residential Landlords Association, registration on the new private rented sector database opens from 15 December 2026 in a 12-month rollout starting in the West Midlands. Landlords in England pay 65 pounds per property per year and must register all homes by 14 November 2027. Penalties run to 7,000 pounds, or 40,000 pounds for repeat breaches."
-    },
-    {
-      "title": "Scottish Government publishes Awaab's Law guidance for tenants in Scotland",
-      "source": "Scottish Government",
-      "url": "https://www.gov.scot/publications/awaabs-law-guidance-tenants-scotland/",
-      "category": "Regulation",
-      "date": "04/09/2026",
-      "summary": "As reported by Scottish Government, Awaab's Law comes into force in Scotland on 6 October 2026, with earlier cases outside its timeframes. Landlords must investigate damp or mould reports within 10 working days, give written findings within 3, and begin repairs within 5. It applies to Scottish Secure, Short Scottish Secure and most private tenancies."
     },
     {
       "title": "Foreign lawyer struck off after submitting AI-generated false case citations at the SDT",
