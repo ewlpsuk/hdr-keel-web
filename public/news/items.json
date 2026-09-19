@@ -1,6 +1,14 @@
 {
-  "updated": "2026-09-18",
+  "updated": "2026-09-19",
   "items": [
+    {
+      "title": "Judge criticises 300-page court skeleton generated almost entirely by ChatGPT",
+      "source": "Law Society Gazette",
+      "url": "https://www.lawgazette.co.uk/news/litigant-files-300-page-skeleton-generated-entirely-by-chatgpt/5127938.article",
+      "category": "Legal tech",
+      "date": "18/09/2026",
+      "summary": "As reported by the Law Society Gazette, a judge criticised a 300-page employment appeal tribunal skeleton generated almost entirely by ChatGPT, ruling that submitting generative AI output without checking it, or placing the burden to check on an opponent, is not acceptable. The judge said the document obscured rather than illuminated and warned that judicial enquiries and sanctions are likely where such checks are not done. A reminder to housing disrepair lawyers that AI-drafted court documents still demand human verification."
+    },
     {
       "title": "Upper Tribunal confirms service charge liability follows the lease in mixed-tenure developments",
       "source": "Local Government Lawyer",
@@ -80,14 +88,6 @@
       "category": "Housing law",
       "date": "10/09/2026",
       "summary": "As reported by the Chartered Institute of Housing, the Social Housing Bill receives its Second Reading in the House of Commons on 10 September 2026, having completed its Lords stages. The bill would reform the Right to Buy, require four weeks notice before a private registered provider sells a social home, and strengthen protections for tenants who are victims of domestic abuse."
-    },
-    {
-      "title": "PRS database opens for landlord registration from 15 December at 65 pounds per property",
-      "source": "National Residential Landlords Association",
-      "url": "https://www.nrla.org.uk/news/landlord-database-rollout-to-start-december",
-      "category": "Regulation",
-      "date": "09/09/2026",
-      "summary": "As reported by the National Residential Landlords Association, registration on the new private rented sector database opens from 15 December 2026 in a 12-month rollout starting in the West Midlands. Landlords in England pay 65 pounds per property per year and must register all homes by 14 November 2027. Penalties run to 7,000 pounds, or 40,000 pounds for repeat breaches."
     },
     {
       "title": "Foreign lawyer struck off after submitting AI-generated false case citations at the SDT",
