@@ -1,13 +1,29 @@
 {
-  "updated": "2026-09-23",
+  "updated": "2026-09-24",
   "items": [
+    {
+      "title": "Regulator finds life critical fire safety defects in 12 per cent of social housing blocks in England",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/over-12-of-social-housing-blocks-in-england-have-life-critical-fire-safety-defects/5144280.article",
+      "category": "Regulation",
+      "date": "24/09/2026",
+      "summary": "As reported by Housing Today, the Regulator of Social Housing's Q1 2026/27 survey found a life critical fire safety defect in external wall systems in 12.1 per cent of relevant buildings over 11 metres in England, up from 11.6 per cent, some 2,078 of 17,258 blocks. Around 76.7 per cent should be remediated within five years. The regulator warned that risks must be managed promptly."
+    },
+    {
+      "title": "Onward Homes brings damp and mould services in-house to meet Awaab's Law demand",
+      "source": "Housing Today",
+      "url": "https://www.housingtoday.co.uk/news/onward-homes-misses-build-target-but-boosts-stock-with-acquisition-of-homes/5144243.article",
+      "category": "Housing law",
+      "date": "22/09/2026",
+      "summary": "As reported by Housing Today, Manchester-based Onward Homes said it has seen more damp and mould cases since Awaab's Law was introduced, despite repair demand falling 2.8 per cent year on year. The 35,000-home provider has taken damp and mould services in-house, along with gas servicing, to cut reliance on contractors. Landlords are restructuring to meet new damp and mould repair timescales."
+    },
     {
       "title": "Legal aid providers still absorb 10p gap as Legal Aid Agency holds mileage rate at 45p",
       "source": "Law Society Gazette",
       "url": "https://www.lawgazette.co.uk/news-focus/in-depth-legal-aid-lawyers-cant-even-get-paid-for-their-petrol/5127947.article",
       "category": "Firm practice",
       "date": "21/09/2026",
-      "summary": "As reported by the Law Society Gazette, HM Treasury raised the approved mileage allowance to 55p a mile, but the Legal Aid Agency has not yet adopted the higher rate, so firms still recover only 45p. The Law Society and Legal Aid Practitioners Group say each journey must now be recorded twice, for billing and internal accounting, adding unremunerated work. They warn the shortfall deepens the legal aid recruitment crisis that funds much housing disrepair work."
+      "summary": "As reported by the Law Society Gazette, HM Treasury raised the approved mileage allowance to 55p a mile, but the Legal Aid Agency has not adapted, so firms still recover only 45p. The Law Society and Legal Aid Practitioners Group say each journey must now be recorded twice, adding unremunerated work. They warn the gap deepens the legal aid recruitment crisis behind much housing disrepair work."
     },
     {
       "title": "Judge criticises 300-page court skeleton generated almost entirely by ChatGPT",
@@ -80,22 +96,6 @@
       "category": "Regulation",
       "date": "14/09/2026",
       "summary": "As reported by the National Residential Landlords Association, the updated Housing Health and Safety Rating System came into force on 23 June 2026 and applies to any inspection started on or after 22 June 2026. Prescribed hazard descriptions fall from 29 to 21, and the former A to J bands are replaced by High, Medium and Low scores, where 1,000 or above counts as High."
-    },
-    {
-      "title": "Social Housing Bill receives Second Reading in the House of Commons",
-      "source": "Chartered Institute of Housing",
-      "url": "https://www.cih.org/news/the-social-housing-bill-second-reading-briefing-commons-stage/",
-      "category": "Housing law",
-      "date": "10/09/2026",
-      "summary": "As reported by the Chartered Institute of Housing, the Social Housing Bill receives its Second Reading in the House of Commons on 10 September 2026, having completed its Lords stages. The bill would reform the Right to Buy, require four weeks notice before a private registered provider sells a social home, and strengthen protections for tenants who are victims of domestic abuse."
-    },
-    {
-      "title": "Foreign lawyer struck off after submitting AI-generated false case citations at the SDT",
-      "source": "Law Society Gazette",
-      "url": "https://www.lawgazette.co.uk/news/foreign-lawyer-produced-ai-generated-false-citations-at-sdt/5127825.article",
-      "category": "Legal tech",
-      "date": "04/09/2026",
-      "summary": "As reported by Law Society Gazette, a foreign lawyer who used AI-generated false case citations in a written defence before the Solicitors Disciplinary Tribunal was struck off. The tribunal, considering such citations for the first time, warned it would take a hard line on lawyers misleading proceedings through AI. A reminder to housing disrepair specialists to verify case law sourced from AI."
     }
   ]
 }
