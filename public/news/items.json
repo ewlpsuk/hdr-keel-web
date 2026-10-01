@@ -1,6 +1,30 @@
 {
-  "updated": "2026-09-30",
+  "updated": "2026-10-01",
   "items": [
+    {
+      "title": "Government unveils £16m Legal Support Grant for people facing eviction and debt",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/litigation-and-enforcement/400-litigation-news/101808-government-unveils-16m-legal-support-grant-for-people-facing-eviction-debt-issues",
+      "category": "Firm practice",
+      "date": "30/09/2026",
+      "summary": "As reported by Local Government Lawyer, the government has announced a 16 million pound Legal Support Grant for 48 frontline organisations to provide free legal advice to people facing eviction, debt, benefit disputes and family breakdown. Run by the Access to Justice Foundation to March 2029, it funds charities including Citizen's Advice and Shelter Cymru, aiming to resolve problems before court."
+    },
+    {
+      "title": "Regulator of Social Housing tells two councils significant improvement is needed",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/397-housing-news/101809-regulator-of-social-housing-tells-two-councils-that-significant-improvement-is-needed-to-meet-consumer-standards",
+      "category": "Regulation",
+      "date": "30/09/2026",
+      "summary": "As reported by Local Government Lawyer, the Regulator of Social Housing has given Nuneaton and Bedworth Borough Council and Thanet District Council a C3 grade after serious failings against its consumer standards. For Nuneaton and Bedworth the issues concern repairs, health and safety and transparency; for Thanet, the condition of homes and anti-social behaviour."
+    },
+    {
+      "title": "Councils to get new powers to refer homeless households to social housing providers",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/397-housing-news/101810-councils-to-be-given-new-powers-to-refer-homeless-households-to-private-registered-providers",
+      "category": "Regulation",
+      "date": "30/09/2026",
+      "summary": "As reported by Local Government Lawyer, the government will amend the Social Housing Bill to let councils refer homeless households to private registered providers of social housing. The measure aims to reduce reliance on temporary accommodation, and a new Duty to Collaborate will require public services to prevent homelessness. The disposals notification period also extends to eight weeks."
+    },
     {
       "title": "Practice direction for digital possession claims comes into force",
       "source": "Local Government Lawyer",
@@ -72,30 +96,6 @@
       "category": "Firm practice",
       "date": "21/09/2026",
       "summary": "As reported by the Law Society Gazette, HM Treasury raised the approved mileage allowance to 55p a mile, but the Legal Aid Agency has not adapted, so firms still recover only 45p. The Law Society and Legal Aid Practitioners Group say each journey must now be recorded twice, adding unremunerated work. They warn the gap deepens the legal aid recruitment crisis behind much housing disrepair work."
-    },
-    {
-      "title": "Scottish regulator reports more than 40,000 damp and mould cases resolved ahead of Awaab's Law",
-      "source": "Housing Today",
-      "url": "https://www.housingtoday.co.uk/news/scottish-regulator-publishes-first-review-of-landlords-damp-and-mould-performance-ahead-of-awaabs-law/5144175.article",
-      "category": "Regulation",
-      "date": "17/09/2026",
-      "summary": "As reported by Housing Today, the Scottish Housing Regulator's first review of its damp and mould performance indicators found social landlords resolved more than 40,000 cases in 2025-26, taking an average of 26 days, with no recurrence in 92 per cent of them. Condensation was the most common cause of reopened cases at 52 per cent. Awaab's Law takes effect in Scotland on 6 October 2026."
-    },
-    {
-      "title": "Housing Ombudsman review finds repairs remain biggest complaint driver",
-      "source": "Housing Ombudsman Service",
-      "url": "https://www.housing-ombudsman.org.uk/2026/09/15/housing-ombudsmans-annual-complaints-review-finds-landlords-resolving-more-issues-before-they-escalate/",
-      "category": "Regulation",
-      "date": "15/09/2026",
-      "summary": "As reported by the Housing Ombudsman Service, its Annual Complaints Review for 2025-26 found 62 per cent of complaints upheld, down from 71 per cent, with severe maladministration findings falling to 470 from 714. Responsive repairs featured in 80 per cent of cases and carried the highest severe maladministration rate. Condensation, damp and mould made up 34 per cent of repairs complaints."
-    },
-    {
-      "title": "Updated HHSRS brings fewer hazard categories and a simplified scoring system",
-      "source": "National Residential Landlords Association",
-      "url": "https://www.nrla.org.uk/news/what-hhsrs-means-in-practice-what-the-2026-reforms-mean-for-landlords-on-the-ground",
-      "category": "Regulation",
-      "date": "14/09/2026",
-      "summary": "As reported by the National Residential Landlords Association, the updated Housing Health and Safety Rating System came into force on 23 June 2026 and applies to any inspection started on or after 22 June 2026. Prescribed hazard descriptions fall from 29 to 21, and the former A to J bands are replaced by High, Medium and Low scores, where 1,000 or above counts as High."
     }
   ]
 }
