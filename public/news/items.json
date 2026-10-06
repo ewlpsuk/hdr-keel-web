@@ -1,6 +1,22 @@
 {
-  "updated": "2026-10-01",
+  "updated": "2026-10-06",
   "items": [
+    {
+      "title": "Awaab's Law comes into force in Scotland with strict damp and mould deadlines",
+      "source": "STV News",
+      "url": "https://news.stv.tv/scotland/awaabs-law-what-does-new-legislation-mean-for-landlords-and-tenants",
+      "category": "Housing law",
+      "date": "06/10/2026",
+      "summary": "As reported by STV News, Awaab's Law came into force in Scotland on 6 October 2026 under the Investigation and Commencement of Repair (Scotland) Regulations 2026, for social and private landlords. Damp or mould must be investigated within ten working days, written findings given within three, and repairs started within five, with social tenants' repairs completed within twenty working days."
+    },
+    {
+      "title": "Company director wins Upper Tribunal appeal over HMO financial penalty",
+      "source": "Local Government Lawyer",
+      "url": "https://www.localgovernmentlawyer.co.uk/housing-law/397-housing-news/101825-company-director-wins-upper-tribunal-appeal-over-imposition-of-financial-penalty-for-hmo-regulation-breaches",
+      "category": "Case law",
+      "date": "01/10/2026",
+      "summary": "As reported by Local Government Lawyer, the Upper Tribunal allowed a company director's appeal against a financial penalty for HMO regulation breaches. Judge Cooke held that director liability under section 251 of the Housing Act 2004 needs actual knowledge, so being sole director is not enough, and fault lay with the tribunal double-counting where director and company were both penalised."
+    },
     {
       "title": "Government unveils £16m Legal Support Grant for people facing eviction and debt",
       "source": "Local Government Lawyer",
@@ -63,7 +79,7 @@
       "url": "https://www.lawgazette.co.uk/news/use-costs-to-clamp-down-on-ai-slop-urges-former-lord-chancellor/5127998.article",
       "category": "Legal tech",
       "date": "25/09/2026",
-      "summary": "As reported by the Law Society Gazette, former lord chancellor Sir Robert Buckland KC has suggested judges use the costs regime to deter litigants in person from flooding courts with AI-generated material. He said AI has removed the natural brake on prolixity, since generating documents costs the filer almost nothing, and that AI-generated conduct should still count as conduct under the costs rules."
+      "summary": "As reported by the Law Society Gazette, former lord chancellor Sir Robert Buckland KC has suggested judges use the costs regime to deter litigants in person from flooding courts with AI-generated material. He said AI has removed the natural brake on prolixity because generating documents costs the filer almost nothing, so AI-generated conduct should still count as conduct under the costs rules."
     },
     {
       "title": "Law centres axe service as funding squeeze tightens",
@@ -80,22 +96,6 @@
       "category": "Housing law",
       "date": "24/09/2026",
       "summary": "As reported by Property118, property barrister Jeffrey Zitron of The Barrister Group Chambers says landlords lose most damp and mould disputes through how they handle complaints rather than the law itself. Those who cannot show when a property was last inspected are worse placed to contest a tenant's claim. Damp and mould drives most of the chambers' disrepair work."
-    },
-    {
-      "title": "Onward Homes brings damp and mould services in-house to meet Awaab's Law demand",
-      "source": "Housing Today",
-      "url": "https://www.housingtoday.co.uk/news/onward-homes-misses-build-target-but-boosts-stock-with-acquisition-of-homes/5144243.article",
-      "category": "Housing law",
-      "date": "22/09/2026",
-      "summary": "As reported by Housing Today, Manchester-based Onward Homes said it has seen more damp and mould cases since Awaab's Law was introduced, despite repair demand falling 2.8 per cent year on year. The 35,000-home provider has taken damp and mould services in-house, along with gas servicing, to cut reliance on contractors. Landlords are restructuring to meet new damp and mould repair timescales."
-    },
-    {
-      "title": "Legal aid providers still absorb 10p gap as Legal Aid Agency holds mileage rate at 45p",
-      "source": "Law Society Gazette",
-      "url": "https://www.lawgazette.co.uk/news-focus/in-depth-legal-aid-lawyers-cant-even-get-paid-for-their-petrol/5127947.article",
-      "category": "Firm practice",
-      "date": "21/09/2026",
-      "summary": "As reported by the Law Society Gazette, HM Treasury raised the approved mileage allowance to 55p a mile, but the Legal Aid Agency has not adapted, so firms still recover only 45p. The Law Society and Legal Aid Practitioners Group say each journey must now be recorded twice, adding unremunerated work. They warn the gap deepens the legal aid recruitment crisis behind much housing disrepair work."
     }
   ]
 }
